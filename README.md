@@ -4,27 +4,27 @@ Prepare for an Open Mobile Application Platform by developers, for developers.
 
 ## Run with gulp
 
-1. Install gulp globally:
+Install gulp globally:
 
 `npm install --global gulp`
 
-2. Install gulp in your project devDependencies:
+Install gulp in your project devDependencies:
 
 `npm install --save-dev gulp`
 
-3. Install gulp less plugin
+Install gulp less plugin
 
 `npm install --save-dev gulp-less`
 
-4. Install gulp uglify plugin for js
+Install gulp uglify plugin for js
 
 `npm install --save-dev gulp-uglify`
 
-5. Install gulp plumber to output errors
+Install gulp plumber to output errors
 
 `npm install --save-dev gulp-plumber`
 
-6. Install gulp browsersync for live reload
+Install gulp browsersync for live reload
 
 `npm install browser-sync gulp --save-dev`
 
