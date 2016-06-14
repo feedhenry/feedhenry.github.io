@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Feedhenry.org - Open source">
+    <meta name="author" content="">
+    
+    <!--  TODO  Fav icon -->
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Feed Henry Open Source</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    
+    <header>      
+      <div class="container">
+  
+      {% include "partials/navigation.nunjucks" %}
+      
+      <div class="brand"><img type="image/svg+xml" src="img/logo.svg" alt="PatternFly Enterprise Application" /></div>
+      
+      <h1>Prepare for an Open Mobile Application Platform by developers, for developers.</h1>
+      <p>We're hard at work getting the platform ready for open sourcing. Check back often for updates on progress, or <strong>sign up to our mailing list</strong> to get the latest news as it happens.</p>
+      
+      <!--
+      <form class="form-inline" method="post" action="https://www.redhat.com/mailman/subscribe/feedhenry-announce">
+        <div class="form-group">
+          <label for="exampleInputEmail2" class="sr-only">Email</label>
+          <input type="email" class="form-control input-lg" id="email" placeholder="Email address">
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Subscribe!</button>
+      </form>
+      -->
+      
+      <a href="https://www.redhat.com/mailman/listinfo/feedhenry-announce" target="_blank" class="btn btn-primary btn-lg">Subscribe to our Mailing List !</a>
+      
+      <div class="arrow">
+        <i class="fa fa-3x fa-chevron-circle-down"></i>
+      </div><!-- arrow -->
+                
+      </div><!-- container -->
+    </header>      
+
+      {% block content %} {% endblock %}
+
+    <footer>
+      <div class="container">
+        
+        <ul class="list-inline">
+          <li><a href="http://www.feedhenry.com">Feedhenry.com</a></li>
+          <li><a href="https://github.com/feedhenry">GitHub</a></li>
+          <li><a href="https://twitter.com/feedhenry">Twitter</a></li>
+          <li><a href="irc://irc.freenode.net/feedhenry">IRC</a></li>
+        </ul>
+
+        <div class="rh-logo">
+          <a href="https://www.redhat.com/en/technologies/mobile/application-platform">
+            <img type="image/svg+xml" src="img/logo-redhat.svg" alt="PatternFly Enterprise Application" />
+          </a>
+        </div>
+      
+      </div><!-- container -->
+    </footer>  
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
