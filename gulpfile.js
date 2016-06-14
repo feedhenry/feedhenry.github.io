@@ -11,7 +11,7 @@ gulp.task('scripts', function(){
   gulp.src('js/*.js')
     .pipe(plumber())
     .pipe(uglify())
-    .pipe(gulp.dest("build/js/minjs"));
+    .pipe(gulp.dest("js/minjs"));
 }); 
 
 gulp
@@ -21,7 +21,7 @@ gulp.task('less', function () {
   gulp.src('source/less/**/*.less')
    .pipe(plumber())
    .pipe(less())
-   .pipe(gulp.dest('build/css'))
+   .pipe(gulp.dest('css'))
    .pipe(reload({stream:true}));
 });
 
@@ -33,7 +33,7 @@ gulp.task('nunjucks', function() {
       path: ['source/templates']
     }))
   // output files in build folder
-  .pipe(gulp.dest('build'))
+  .pipe(gulp.dest('./'))
 });
 
 
@@ -41,7 +41,7 @@ gulp.task('nunjucks', function() {
 gulp.task('browser-sync', function() {
     browserSync({
         server: {
-            baseDir: "./build/"
+            baseDir: "./"
         }
     });
 });

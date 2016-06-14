@@ -7,5 +7,5 @@ echo chcon -Rt svirt_sandbox_file_t $(pwd)
 
 # requires docker and being in the right group
 docker build -t feedhenry-builder .
-docker run --rm -p 3000:3000 -v "$(pwd)":/tmp/feedhenry.github.com:ro -v "$(pwd)/build":/tmp/feedhenry.github.com/build:rw feedhenry-builder
+docker run --rm -p 3000:3000 -v "$(pwd)":/tmp/feedhenry.github.com/:rw feedhenry-builder
 

@@ -33,7 +33,7 @@
   
       {% include "partials/navigation.nunjucks" %}
       
-      <div class="brand"><img type="image/svg+xml" src="img/logo.svg" alt="PatternFly Enterprise Application" /></div>
+      <div class="brand"><img type="image/svg+xml" src="/img/logo.svg" alt="PatternFly Enterprise Application" /></div>
       
       <h1>Prepare for an Open Mobile Application Platform by developers, for developers.</h1>
       <p>We're hard at work getting the platform ready for open sourcing. Check back often for updates on progress, or <strong>sign up to our mailing list</strong> to get the latest news as it happens.</p>
