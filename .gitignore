@@ -2,3 +2,6 @@
 
 # backup files from emacs
 *~
+
+# build folder
+/build
