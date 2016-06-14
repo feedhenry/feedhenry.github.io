@@ -18,13 +18,14 @@ RUN npm install --save-dev gulp-less
 RUN npm install --save-dev gulp-uglify
 RUN npm install --save-dev gulp-plumber
 RUN npm install browser-sync gulp --save-dev
+RUN npm install gulp-nunjucks-render --save-dev
 
 # test server port
 EXPOSE 3000
 
 # serve the content!
 WORKDIR /tmp/feedhenry.github.com
-CMD /usr/bin/gulp
+#CMD /usr/bin/gulp
 
 
 
