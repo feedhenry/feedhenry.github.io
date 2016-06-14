@@ -25,7 +25,7 @@ EXPOSE 3000
 
 # serve the content!
 WORKDIR /tmp/feedhenry.github.com
-#CMD /usr/bin/gulp
+CMD /usr/bin/gulp
 
 
 
