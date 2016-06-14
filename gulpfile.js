@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     less = require('gulp-less'),
     plumber = require('gulp-plumber'),
     browserSync = require('browser-sync'),
+    nunjucksRender = require('gulp-nunjucks-render'),
     reload = browserSync.reload;
 
 // Uglyfies js on to /js/minjs
@@ -10,23 +11,37 @@ gulp.task('scripts', function(){
   gulp.src('js/*.js')
     .pipe(plumber())
     .pipe(uglify())
-    .pipe(gulp.dest("js/minjs"));
+    .pipe(gulp.dest("build/js/minjs"));
 }); 
+
+gulp
 
 // Compiles less on to /css
 gulp.task('less', function () {
-  gulp.src('less/**/*.less')
+  gulp.src('source/less/**/*.less')
    .pipe(plumber())
    .pipe(less())
-   .pipe(gulp.dest('css'))
+   .pipe(gulp.dest('build/css'))
    .pipe(reload({stream:true}));
 });
+
+gulp.task('nunjucks', function() {
+  // Gets .html and .nunjucks files in pages
+  gulp.src('source/pages/**/*.+(html|nunjucks)')
+  // Renders template with nunjucks
+  .pipe(nunjucksRender({
+      path: ['source/templates']
+    }))
+  // output files in build folder
+  .pipe(gulp.dest('build'))
+});
+
 
 // reload server
 gulp.task('browser-sync', function() {
     browserSync({
         server: {
-            baseDir: "./"
+            baseDir: "./build/"
         }
     });
 });
@@ -44,4 +59,4 @@ gulp.task('watch', function(){
 }); 
 
 // deploys
-gulp.task('default',  ['scripts', 'less','browser-sync','watch']);
+gulp.task('default',  ['scripts', 'less', 'nunjucks', 'browser-sync','watch']);
