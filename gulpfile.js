@@ -36,7 +36,6 @@ gulp.task('nunjucks', function() {
   .pipe(gulp.dest('./'))
 });
 
-
 // reload server
 gulp.task('browser-sync', function() {
     browserSync({
@@ -53,9 +52,10 @@ gulp.task('bs-reload', function () {
 
 // watch for changes on files
 gulp.task('watch', function(){ 
-  gulp.watch('js/*.js', ['scripts']);
-  gulp.watch('less/*.less', ['less']);
-  gulp.watch("*.html", ['bs-reload']);
+    gulp.watch('js/*.js', ['scripts']);
+    gulp.watch('less/*.less', ['less']);
+    gulp.watch('source/**/*.nunjucks', ['nunjucks']);
+    gulp.watch("*.html", ['bs-reload']);
 }); 
 
 // deploys
