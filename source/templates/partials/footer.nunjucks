@@ -1,0 +1,77 @@
+<footer class="container" id="footer">
+  <hr class="visible-print">
+  <div class="row">
+    <div class="col-sm-3 col-xs-12">
+      <h4>Follow us:</h4>
+      <div class="row">
+	<div class="col-xs-6">
+	  <p>
+	    <a href="https://twitter.com/feedhenry" target="_blank">
+	      <i class="fa fa-lg fa-twitter"></i>
+	      Twitter
+	    </a>
+	  </p>
+	</div>
+	<div class="col-xs-6">
+	  <p>
+	    <a href="https://github.com/feedhenry" target="_blank">
+	      <i class="fa fa-github fa-lg"></i>
+	      GitHub
+	    </a>
+	  </p>
+	</div>
+	<div class="col-xs-6">
+	  <p>
+	    <a href="https://www.facebook.com/FeedHenry" target="_blank">
+	      <i class="fa fa-facebook fa-lg"></i>
+	      Facebook
+	    </a>
+	  </p>
+	</div>
+	<div class="col-xs-6">
+	  <p>
+	    <a href="https://www.youtube.com/channel/UCYvKWvC7UoUXyLcb16doD3g" target="_blank">
+	      <i class="fa fa-lg fa-youtube"></i>
+	      YouTube
+	    </a>
+	  </p>
+	</div>
+      </div>
+    </div>
+    <div class="col-sm-2 col-xs-12">
+      <h4>Community:</h4>
+      <div class="row">
+	<div class="col-sm-12">
+	  <p>
+	    <a href="TBD">Code of Conduct</a>
+	  </p>
+	</div>
+	<div class="col-sm-12">
+	  <p>
+	    <a href="TBD">Privacy Policy</a>
+	  </p>
+	</div>
+      </div>
+    </div>
+    <div class="col-sm-7">
+      <h4>Legal Information</h4>
+      <p>
+
+	© 2016 FeedHenry
+	- this web site is licensed under a
+	<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB" rel="license">
+	  Creative Commons Attribution-ShareAlike 3.0 Unported License
+	</a>
+      </p><p>
+	<a href="https://github.com/feedhenry/feedhenry-site/edit/master/source/index.html.haml"><i class="icon fa fa-lg fa-edit"></i> Edit this page on GitHub</a>
+      </p>
+      <div class="last-modified">
+      </div>
+      <p>
+	Page last modified
+	Thu 9 Jun 2016 12:08 UTC
+      </p>
+      <p></p>
+    </div>
+  </div>
+</footer>

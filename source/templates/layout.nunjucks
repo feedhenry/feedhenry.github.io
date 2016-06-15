@@ -32,7 +32,8 @@
       <div class="container">
   
       {% include "partials/navigation.nunjucks" %}
-      
+
+      </div>
       <div class="brand"><img type="image/svg+xml" src="/img/logo.svg" alt="PatternFly Enterprise Application" /></div>
       
       <h1>Prepare for an Open Mobile Application Platform by developers, for developers.</h1>
@@ -59,24 +60,7 @@
 
       {% block content %} {% endblock %}
 
-    <footer>
-      <div class="container">
-        
-        <ul class="list-inline">
-          <li><a href="http://www.feedhenry.com">Feedhenry.com</a></li>
-          <li><a href="https://github.com/feedhenry">GitHub</a></li>
-          <li><a href="https://twitter.com/feedhenry">Twitter</a></li>
-          <li><a href="irc://irc.freenode.net/feedhenry">IRC</a></li>
-        </ul>
-
-        <div class="rh-logo">
-          <a href="https://www.redhat.com/en/technologies/mobile/application-platform">
-            <img type="image/svg+xml" src="img/logo-redhat.svg" alt="PatternFly Enterprise Application" />
-          </a>
-        </div>
-      
-      </div><!-- container -->
-    </footer>  
+      {% include "partials/footer.nunjucks" %}
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
