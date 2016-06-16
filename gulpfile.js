@@ -14,7 +14,6 @@ gulp.task('scripts', function(){
     .pipe(gulp.dest("js/minjs"));
 }); 
 
-gulp
 
 // Compiles less on to /css
 gulp.task('less', function () {
@@ -53,9 +52,9 @@ gulp.task('bs-reload', function () {
 // watch for changes on files
 gulp.task('watch', function(){ 
     gulp.watch('js/*.js', ['scripts']);
-    gulp.watch('less/*.less', ['less']);
+    gulp.watch('source/less/*.less', ['less']);
     gulp.watch('source/**/*.nunjucks', ['nunjucks']);
-    gulp.watch("*.html", ['bs-reload']);
+    gulp.watch("*.*", ['bs-reload']);
 }); 
 
 // deploys
