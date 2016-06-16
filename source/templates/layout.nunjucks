@@ -29,39 +29,15 @@
   <body>
     
     <header>      
-      <div class="container">
-  
-      {% include "partials/navigation.nunjucks" %}
-
-      </div>
-      <div class="brand"><img type="image/svg+xml" src="/img/logo.svg" alt="PatternFly Enterprise Application" /></div>
-      
-      <h1>Prepare for an Open Mobile Application Platform by developers, for developers.</h1>
-      <p>We're hard at work getting the platform ready for open sourcing. Check back often for updates on progress, or <strong>sign up to our mailing list</strong> to get the latest news as it happens.</p>
-      
-      <!--
-      <form class="form-inline" method="post" action="https://www.redhat.com/mailman/subscribe/feedhenry-announce">
-        <div class="form-group">
-          <label for="exampleInputEmail2" class="sr-only">Email</label>
-          <input type="email" class="form-control input-lg" id="email" placeholder="Email address">
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg">Subscribe!</button>
-      </form>
-      -->
-      
-      <a href="https://www.redhat.com/mailman/listinfo/feedhenry-announce" target="_blank" class="btn btn-primary btn-lg">Subscribe to our Mailing List !</a>
-      
-      <div class="arrow">
-        <i class="fa fa-3x fa-chevron-circle-down"></i>
-      </div><!-- arrow -->
-                
-      </div><!-- container -->
+        {% include "partials/navigation.nunjucks" %}
     </header>      
 
-      {% block content %} {% endblock %}
+      {% block content %}
+      {% endblock %}
 
-      {% include "partials/footer.nunjucks" %}
-
+    <footer>
+     {% include "partials/footer.nunjucks" %}
+    </footer>    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -1,10 +1,13 @@
-@import "../bower_components/bootstrap/less/bootstrap.less";
+@import "../../bower_components/bootstrap/less/bootstrap.less";
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans");
 
 @font-family-base: 'Open Sans', sans-serif;
 @font-weight-normal: 400;
 @font-weight-bold: 700;
+
+@headings-font-family: 'Noto Sans', sans-serif;
+@headings-font-weight: 600;
 
 @color-white: rgba(255,255,255,1);
 @color-white-secondary: rgba(255,255,255,.7);
@@ -12,43 +15,32 @@
 
 @color-black: rgba(0,0,0,.87);
 @color-black-secondary: rgba(0,0,0,.54);
-@color-black-cover: rgba(0,0,0,.6);
+@color-black-cover: rgba(0,0,0,.3);
 @color-black-divider: rgba(0,0,0,.2);
 
 @line-height-base:        1.8; // 20/14
 
-@link-color: @color-white-secondary;
-
+@link-color: darken(@brand-info, 20);
 
 @input-border-radius-large:      2px;
 @btn-border-radius-large:        2px;
-
 
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 rgba(0,0,0,.8);
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
 
-
-.btn, input{
-//  border-width: 0px!important;
-}
-
-input{
-//  border-color: #fff!important;
-}
-
 body{
   font-weight: @font-weight-normal;
-  text-align: center;
-  background: url(../img/bg-header-new.jpg) no-repeat center center;  
+//  text-align: center;
+  background: url("../img/sunset-1280.jpeg") no-repeat center center;  
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: inset 0 0 200px #000;
-  
-}
+  box-shadow: inset 0 0 300px #000;
 
-h1,h2,h3,h4,h5,h6, strong, .btn-lg{
-  font-weight: @font-weight-bold;
+  color: @gray;
+
+  // account for the top navbar
+  margin-top: @navbar-height;
 }
 
 .btn{
@@ -56,100 +48,36 @@ h1,h2,h3,h4,h5,h6, strong, .btn-lg{
   cursor: pointer!important;
 }
 
-header{
-  color: @color-white;
-  background: @color-black-cover;
-  box-shadow: inset 0px 0px 300px #1e0522;
-  text-shadow: 0 -1px 1px rgba(0,0,0,1);
-  padding: 40px 0 80px 0;
-  @media (min-width: @screen-md-min) { 
-    padding: 100px 0 80px 0;
-  }
-
-  .btn{
-    @media (max-width: @screen-xs-max) { 
-      .btn-block;
-    }    
-  }
-  
-  h1{
-    margin-bottom: 30px;
-    line-height: 50px;
-    @media (min-width: @screen-md-min) { 
-      padding: 0 100px;
-    }
-  }
-  p{
-    font-size:  @font-size-h4;
-    margin-bottom: 30px;
-    @media (min-width: @screen-md-min) { 
-      padding: 0 100px;
-    }
-  }
-  .brand{
-    margin-bottom: 40px;
-    @media (min-width: @screen-md-min) { 
-      margin-bottom: 80px;
-    }
-    img{
-      height: 50px;
-    }
-  }//brand
-
-  .arrow{
-//    font-size: 60px;
-    color: @color-white-divider;
-    text-shadow: none;
-    margin-top: 40px;
-  }
-
+// navbar logo
+#logo{
+    height: 25px;
 }
 
 section, footer{
   background: @color-white;
-  padding: 50px 0;
+  padding-top: @padding-large-vertical;
+  padding-bottom: @padding-large-vertical;
+
   @media (min-width: @screen-md-min) { 
-    padding: 100px 0;
+    padding-top: @padding-large-vertical*5;
+    padding-bottom: @padding-large-vertical*5;
   }
 //  border-bottom: 1px solid @color-black-divider;
 }
 
-.blurbs{
-  .col-md-4{
-//    border-bottom: 1px solid @color-black-divider;
-    padding-bottom: 20px;
-    @media (min-width: @screen-md-min) { 
-      border-bottom: none;
-      padding-bottom: 0px;
-    }
-  }
+section:nth-child(2n) {
+  background: @gray-lighter;
 }
 
-.call{
-  text-shadow: 0 -1px 1px rgba(0,0,0,1);
-  background: @color-black-cover;
-  box-shadow: inset 0 0 200px #1e0522;
-  color: @color-white;
-  h2{
-    margin-bottom: 20px;
-  }
-  p{
-//    font-size:  @font-size-h4;
-//    margin-bottom: 30px;
-    @media (min-width: @screen-md-min) { 
-      padding: 0 140px;
-    }
-  }
-  a{
-    margin-top: 20px;
-  }
-}
-
-footer{
+footer {
   border-top: 2px solid @color-black;
   background: #222;
   color: #fff;
+  a:link, a:visited, a:active, a:hover{
+    color: lighten(@brand-info, 10);
+  }
   text-shadow: 0 -1px 0 rgba(0,0,0,.6);
+
   ul{
     display: inline-block;
 //    border-bottom: 1px solid @color-white-divider;
@@ -163,3 +91,86 @@ footer{
   }
   
 }
+
+nav{
+    font-weight: @font-weight-bold;
+    text-transform: uppercase;   
+    font-size: 110%;
+    .dropdown-menu{
+	text-transform: none;
+    }
+}
+
+
+// the big showcase part
+section#landing{
+  a:link, a:visited, a:active, a:hover{
+    color: lighten(@brand-info, 20);
+  }
+  color: @color-white;
+  background: @color-black-cover;
+  @media (min-width: @screen-sm-min) { 
+    box-shadow: inset 0px 0px 100px #1e0522;
+  }
+  text-shadow: 0.3px 1px 2px rgba(0,0,0,1);
+
+  p{
+    font-size: 1.2em;
+  }  
+  p.lead {
+    font-size: 1.8em;
+  }
+  a.btn:link, a.btn:visited, a.btn:active, a.btn:hover{
+    color: white;
+  }
+
+}
+
+
+
+// default size is small mobile screens
+#tentacle{
+  float: right;
+}
+
+#raincatcher{
+  //max-width: 480px;
+    margin-top: @padding-large-vertical;
+    margin-bottom: @padding-large-vertical;
+}
+
+// for tablets and such, from 768px up
+@media (min-width: @screen-sm-min){
+  #tentacle{
+    margin-top: 20px;
+    margin-right: -20px;
+    width: 360px;
+  }
+  #raincatcher{
+  }
+}
+
+// for smalled desktops etc.., from 768px up
+@media (min-width: @screen-md-min){
+  #tentacle{
+    margin-right: 0;
+    margin-top: -90px;
+    width: 440px;
+  }
+  #raincatcher{
+    max-width: 520px;
+  }
+}
+
+// Large desktops, 1280px up 
+@media (min-width: @screen-lg-min){
+  #tentacle{
+    margin-top: -122px;
+    margin-right: 0px;
+    width: 500px;
+  }
+  #raincatcher{
+    max-width: 640px;
+  }
+}
+
