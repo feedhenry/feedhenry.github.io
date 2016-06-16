@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1087,12 +1087,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: rgba(255, 255, 255, 0.7);
+  color: #2390b0;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: rgba(217, 217, 217, 0.7);
+  color: #175b70;
   text-decoration: underline;
 }
 a:focus {
@@ -1174,8 +1174,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
 }
@@ -3439,7 +3439,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #fff;
 }
 .btn-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: #2390b0;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3460,7 +3460,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: rgba(217, 217, 217, 0.7);
+  color: #175b70;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4035,7 +4035,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: rgba(255, 255, 255, 0.7);
+  border-color: #2390b0;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4752,7 +4752,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.8;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: #2390b0;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -4773,7 +4773,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 3;
-  color: rgba(217, 217, 217, 0.7);
+  color: #175b70;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -4971,7 +4971,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: rgba(255, 255, 255, 0.7);
+  color: #2390b0;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -5044,7 +5044,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: rgba(255, 255, 255, 0.7);
+  border-color: #2390b0;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -6767,115 +6767,35 @@ button.close {
 }
 body {
   font-weight: 400;
-  text-align: center;
-  background: url(../img/bg-header-new.jpg) no-repeat center center;
+  background: url("../img/sunset-1280.jpeg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: inset 0 0 200px #000;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-.btn-lg,
-.btn-group-lg > .btn {
-  font-weight: 700;
+  box-shadow: inset 0 0 300px #000;
+  color: #555555;
+  margin-top: 50px;
 }
 .btn {
   text-shadow: none!important;
   cursor: pointer!important;
 }
-header {
-  color: #ffffff;
-  background: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 0px 0px 300px #1e0522;
-  text-shadow: 0 -1px 1px #000000;
-  padding: 40px 0 80px 0;
-}
-@media (min-width: 992px) {
-  header {
-    padding: 100px 0 80px 0;
-  }
-}
-@media (max-width: 767px) {
-  header .btn {
-    display: block;
-    width: 100%;
-  }
-}
-header h1 {
-  margin-bottom: 30px;
-  line-height: 50px;
-}
-@media (min-width: 992px) {
-  header h1 {
-    padding: 0 100px;
-  }
-}
-header p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-@media (min-width: 992px) {
-  header p {
-    padding: 0 100px;
-  }
-}
-header .brand {
-  margin-bottom: 40px;
-}
-@media (min-width: 992px) {
-  header .brand {
-    margin-bottom: 80px;
-  }
-}
-header .brand img {
-  height: 50px;
-}
-header .arrow {
-  color: rgba(255, 255, 255, 0.2);
-  text-shadow: none;
-  margin-top: 40px;
+#logo {
+  height: 25px;
 }
 section,
 footer {
   background: #ffffff;
-  padding: 50px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 @media (min-width: 992px) {
   section,
   footer {
-    padding: 100px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
-.blurbs .col-md-4 {
-  padding-bottom: 20px;
-}
-@media (min-width: 992px) {
-  .blurbs .col-md-4 {
-    border-bottom: none;
-    padding-bottom: 0px;
-  }
-}
-.call {
-  text-shadow: 0 -1px 1px #000000;
-  background: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 0 0 200px #1e0522;
-  color: #ffffff;
-}
-.call h2 {
-  margin-bottom: 20px;
-}
-@media (min-width: 992px) {
-  .call p {
-    padding: 0 140px;
-  }
-}
-.call a {
-  margin-top: 20px;
+section:nth-child(2n) {
+  background: #eeeeee;
 }
 footer {
   border-top: 2px solid rgba(0, 0, 0, 0.87);
@@ -6883,10 +6803,86 @@ footer {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
 }
+footer a:link,
+footer a:visited,
+footer a:active,
+footer a:hover {
+  color: #85d0e7;
+}
 footer ul {
   display: inline-block;
   margin-bottom: 30px;
 }
 footer .rh-logo img {
   height: 40px;
+}
+nav {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 110%;
+}
+nav .dropdown-menu {
+  text-transform: none;
+}
+section#landing {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.3);
+  text-shadow: 0.3px 1px 2px #000000;
+}
+section#landing a:link,
+section#landing a:visited,
+section#landing a:active,
+section#landing a:hover {
+  color: #b0e1ef;
+}
+@media (min-width: 768px) {
+  section#landing {
+    box-shadow: inset 0px 0px 100px #1e0522;
+  }
+}
+section#landing p {
+  font-size: 1.2em;
+}
+section#landing p.lead {
+  font-size: 1.8em;
+}
+section#landing a.btn:link,
+section#landing a.btn:visited,
+section#landing a.btn:active,
+section#landing a.btn:hover {
+  color: white;
+}
+#tentacle {
+  float: right;
+}
+#raincatcher {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #tentacle {
+    margin-top: 20px;
+    margin-right: -20px;
+    width: 360px;
+  }
+}
+@media (min-width: 992px) {
+  #tentacle {
+    margin-right: 0;
+    margin-top: -90px;
+    width: 440px;
+  }
+  #raincatcher {
+    max-width: 520px;
+  }
+}
+@media (min-width: 1200px) {
+  #tentacle {
+    margin-top: -122px;
+    margin-right: 0px;
+    width: 500px;
+  }
+  #raincatcher {
+    max-width: 640px;
+  }
 }

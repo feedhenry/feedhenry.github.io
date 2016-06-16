@@ -29,163 +29,237 @@
   <body>
     
     <header>      
-      <div class="container">
-  
-      <!-- navigation.nunjucks -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- navigation.nunjucks -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse">
+	<span class="sr-only">
+	  Toggle navigation
+	</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="/">
+	<img id="logo" src="/img/logo.svg">
+      </a>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+	<li class="dropdown">
+	  <a class="dropdown-toggle projects" data-toggle="dropdown" href="/projects/">
+	    Projects
+	    <span class="caret"></span>
+	  </a>
+	  <ul class="dropdown-menu">
+	    <li><a href="raincatcher.html">Raincatcher Workforce Management</a></li>
+	    <li><a href="sdk.html">Software Development Kits</a></li>
+	    <li><a href="templates.html">Application Templates</a></li>
+	  </ul>
+	</li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
+      <ul class="nav navbar-nav">
+	<li><a class="docs" href="/docs.html">Docs</a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+      <ul class="nav navbar-nav">
+	<li><a class="blog" href="http://www.feedhenry.com/category/blog/">Blog</a></li>
+      </ul>
+      <ul class="nav navbar-nav">
+	<li><a class="blog" href="/community.html">Community</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
 
-      
-      <div class="brand"><img type="image/svg+xml" src="img/logo.svg" alt="PatternFly Enterprise Application" /></div>
-      
-      <h1>Prepare for an Open Mobile Application Platform by developers, for developers.</h1>
-      <p>We're hard at work getting the platform ready for open sourcing. Check back often for updates on progress, or <strong>sign up to our mailing list</strong> to get the latest news as it happens.</p>
-      
-      <!--
-      <form class="form-inline" method="post" action="https://www.redhat.com/mailman/subscribe/feedhenry-announce">
-        <div class="form-group">
-          <label for="exampleInputEmail2" class="sr-only">Email</label>
-          <input type="email" class="form-control input-lg" id="email" placeholder="Email address">
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg">Subscribe!</button>
-      </form>
-      -->
-      
-      <a href="https://www.redhat.com/mailman/listinfo/feedhenry-announce" target="_blank" class="btn btn-primary btn-lg">Subscribe to our Mailing List !</a>
-      
-      <div class="arrow">
-        <i class="fa fa-3x fa-chevron-circle-down"></i>
-      </div><!-- arrow -->
-                
-      </div><!-- container -->
+
     </header>      
 
       
-    <section class="blurbs">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Get the source code</h3>
-            <p>FeedHenry will be fully open source. Stay tuned to contribute or build your own solution.</p>
-            <p>
-              <a href="https://github.com/feedhenry" class="btn btn-block btn-default">
-                <i class="fa fa-github"></i> 
-                FeedHenry on GitHub
-              </a>
-            </p>
-          </div><!-- col -->
-          <div class="col-md-4">
-            <h3>Follow us</h3>
-            <p>Be the first to know, get the latest news and updates on Twitter.</p>
-            <p>
-              <a href="https://twitter.com/feedhenry" class="btn btn-block btn-default">
-                <i class="fa fa-twitter"></i>
-                FeedHenry on Twitter
-              </a>
-            </p>
-          </div><!-- col -->
-          <div class="col-md-4">
-            <h3>Connect with us</h3>
-            <p>Chat with the FeedHenry team and the FeedHenry community at our Freenode IRC channel.</p>
-            <p>
-              <a href="irc://irc.freenode.net/feedhenry" class="btn btn-block btn-default">
-                <i class="fa fa-comments-o"></i>
-                #feedhenry on Freenode IRC
-              </a>
-            </p>
-          </div><!-- col -->
 
-        </div><!-- row -->
-      </div><!-- container -->
-    </section>  
+<section id="landing">
+  <div class="container">
 
-    <section class="call">
-      <div class="container">
-        <h2>Develop, Deploy, Manage and Monitor</h2>
-        <p>FeedHenry, the mobile application platform based on open technologies, is a one stop solution for all your mobility needs.</p>
+    <img class="img-responsive" type="image/svg+xml" id="raincatcher" src="/img/raincatcher-inverted.svg" alt="FeedHenry RainCatcher" />
+    <div class="clearfix"></div>    
+    <img class="hidden-xs" id="tentacle" src="/img/tentacle.png" />
 
-        <p>The platform offers developers the flexibility to create native (Android, iOS, Windows Phone), hybrid, HTML5 or web apps and supports a wide variety of popular developer toolkits and frameworks.</p>
+    <p class="lead">In September 2014, Red Hat acquired FeedHenry, a mobile application services company based in Waterford, Ireland. With the acquisition, FeedHenry's supported offerings moved under the <a href="https://www.redhat.com/en/technologies/mobile/application-platform">Red Hat Mobile Application Platform</a> and the "FeedHenry" name was retained for releasing related open source projects.</p>
 
-        <p>The mobile Backend-as-a-Service (mBaaS) simplifies backend integration to business systems, speeding app delivery with reusable connectors and plug-ins.</p>
+    <p>One of the first projects we're proud to make public is RainCatcher, a field workforce management (WFM) application. Along with it, we are also opening the mobile client SDKs and application templates to help you get started in building your own mobile applications.</p>
 
-        <a href="http://www.feedhenry.com" class="btn btn-default">More information on the current platform</a>
+    <a href="https://www.redhat.com/mailman/listinfo/feedhenry-announce" target="_blank" class="btn btn-primary btn-lg">Subscribe to our Mailing List !</a>
+    <a href="/faq.html" target="_blank" class="btn btn-primary btn-lg">Frequently Asked Questions</a>
 
-      </div><!-- container -->
-    </section>  
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-xs-12">
+        <h2 class="text-center"><a href="raincatcher.html">RainCatcher</a></h2>
+        <p class="small text-center"><i>image placeholder</i></p>
+        <p class="lead">At the top-level, RainCatcher is a set of NodeJS modules that are used to develop workforce management (WFM) applications.</p>
+
+        <p>To help you get started, the modules come with a sample mobile application and Web portal based on Angular.js using Material Design, which you can use to bootstrap your own developments and <a href="http://www.feedhenry.com/release-of-v3-10-of-the-red-hat-mobile-application-platform-including-swift-2-1-and-wfm/">create a solution like this</a>.</p>
+
+        <p>See the <a href="https://github.com/feedhenry-staff/wfm-doc/blob/master/Getting-Started.md">Getting Started Guide</a> as well. //FIXME: rewrite this?</p>
+      </div>
+
+      <div class="col-sm-4 col-xs-12">
+        <h2 class="text-center"><a href="sdk.html">Mobile SDKs</a></h2>
+        <p class="small text-center"><i>image placeholder</i></p>
+        <p class="lead">Sed sollicitudin sem at ipsum interdum egestas. Curabitur eget elementum nisl. Donec a hendrerit mauris, sed vulputate orci. </p>
+
+        <p>Nulla pretium vestibulum massa, sed mattis arcu vestibulum eget. Aenean pretium vel nisi non rutrum. Etiam sit amet lobortis tellus, ut tempus tellus. Suspendisse potenti.</p>
+
+        <p><a href="sdk.html">Read more...</a></p>
+      </div>
+
+      <div class="col-sm-4 col-xs-12">
+        <h2 class="text-center"><a href="templates.html">Application Templates</a></h2>
+        <p class="small text-center"><i>image placeholder</i></p>
+        <p class="lead">Sed rhoncus enim velit, sit amet ornare tellus ultrices id. Suspendisse fermentum viverra lobortis.</p>
+
+        <p>Curabitur eu facilisis libero, et porttitor justo. Donec venenatis luctus lectus vel elementum. Aenean pellentesque lacinia nisl. Integer eu feugiat augue. Nam posuere, lectus eu fringilla suscipit, mi orci porttitor urna, efficitur eleifend libero orci eget massa.</p>
+
+        <p>See the <a href="https://github.com/feedhenry-templates">templates on Github</a> or <a href="sdk.html">read more about the SDKs</a>.</p>
+      </div>
+
+    </div>  
+  </div>
+</section>
+
+<section class="blurbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Get the source code</h3>
+        <p>FeedHenry will be fully open source. Stay tuned to contribute or build your own solution.</p>
+        <p>
+          <a href="https://github.com/feedhenry" class="btn btn-block btn-default">
+            <i class="fa fa-github"></i> 
+            FeedHenry on GitHub
+          </a>
+        </p>
+      </div><!-- col -->
+      <div class="col-md-4">
+        <h3>Follow us</h3>
+        <p>Be the first to know, get the latest news and updates on Twitter.</p>
+        <p>
+          <a href="https://twitter.com/feedhenry" class="btn btn-block btn-default">
+            <i class="fa fa-twitter"></i>
+            FeedHenry on Twitter
+          </a>
+        </p>
+      </div><!-- col -->
+      <div class="col-md-4">
+        <h3>Connect with us</h3>
+        <p>Chat with the FeedHenry team and the FeedHenry community at our Freenode IRC channel.</p>
+        <p>
+          <a href="irc://irc.freenode.net/feedhenry" class="btn btn-block btn-default">
+            <i class="fa fa-comments-o"></i>
+            #feedhenry on Freenode IRC
+          </a>
+        </p>
+      </div><!-- col -->
+
+    </div><!-- row -->
+  </div><!-- container -->
+</section>  
+
+<section>
+  <div class="container">
+    <h2>Develop, Deploy, Manage and Monitor</h2>
+    <p>FeedHenry, the mobile application platform based on open technologies, is a one stop solution for all your mobility needs.</p>
+
+    <p>The platform offers developers the flexibility to create native (Android, iOS, Windows Phone), hybrid, HTML5 or web apps and supports a wide variety of popular developer toolkits and frameworks.</p>
+
+    <p>The mobile Backend-as-a-Service (mBaaS) simplifies backend integration to business systems, speeding app delivery with reusable connectors and plug-ins.</p>
+
+    <a href="http://www.feedhenry.com" class="btn btn-default">More information on the current platform</a>
+
+  </div>
+</section>  
 
 
 
     <footer>
-      <div class="container">
-        
-        <ul class="list-inline">
-          <li><a href="http://www.feedhenry.com">Feedhenry.com</a></li>
-          <li><a href="https://github.com/feedhenry">GitHub</a></li>
-          <li><a href="https://twitter.com/feedhenry">Twitter</a></li>
-          <li><a href="irc://irc.freenode.net/feedhenry">IRC</a></li>
-        </ul>
+       <div class="container">
+    <hr class="visible-print">
+    <div class="row">
+      <div class="col-sm-3 col-xs-12">
+        <h4>Follow us:</h4>
+        <div class="row">
+    	  <div class="col-xs-6">
+  	    <p>
+  	      <a href="https://twitter.com/feedhenry" target="_blank">
+  	        <i class="fa fa-fw fa-lg fa-twitter"></i>
+  	        Twitter
+	      </a>
+	    </p>
+	  </div>
+	  <div class="col-xs-6">
+	    <p>
+	      <a href="https://github.com/feedhenry" target="_blank">
+		<i class="fa fa-fw fa-fw fa-github fa-lg"></i>
+		GitHub
+	      </a>
+	    </p>
+	  </div>
+	  <div class="col-xs-6">
+	    <p>
+	      <a href="https://www.facebook.com/FeedHenry" target="_blank">
+		<i class="fa fa-fw fa-facebook fa-lg"></i>
+		Facebook
+	      </a>
+	    </p>
+	  </div>
+	  <div class="col-xs-6">
+	    <p>
+	      <a href="https://www.youtube.com/channel/UCYvKWvC7UoUXyLcb16doD3g" target="_blank">
+		<i class="fa fa-fw fa-lg fa-youtube"></i>
+		YouTube
+	      </a>
+	    </p>
+	  </div>
+	</div>
+      </div>
+      <div class="col-sm-2 col-xs-12">
+	<h4>Community:</h4>
+	<div class="row">
+	  <div class="col-sm-12">
+	    <p>
+	      <a href="TBD">Code of Conduct</a>
+	    </p>
+	  </div>
+	  <div class="col-sm-12">
+	    <p>
+	      <a href="https://www.redhat.com/en/about/privacy-policy">Privacy Policy</a>
+	    </p>
+	  </div>
+	</div>
+      </div>
+      <div class="col-sm-7">
+	<h4>Legal Information</h4>
+	<p>&copy; 2016 FeedHenry, this web site is licensed under
+	  <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB" rel="license">
+	    Creative Commons Attribution-ShareAlike 3.0 Unported License
+	  </a>
+	</p>
+	<p>
+	  <a href="https://www.redhat.com/en/about/privacy-policy">Privacy Policy</a>
+	</p>
 
-        <div class="rh-logo">
-          <a href="https://www.redhat.com/en/technologies/mobile/application-platform">
-            <img type="image/svg+xml" src="img/logo-redhat.svg" alt="PatternFly Enterprise Application" />
-          </a>
-        </div>
-      
-      </div><!-- container -->
-    </footer>  
+	<div class="last-modified">
+	</div>
+      </div>
+    </div>
+  </div>
 
+    </footer>    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
