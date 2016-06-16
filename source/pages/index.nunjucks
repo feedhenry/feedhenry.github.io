@@ -1,57 +1,112 @@
 <!-- index.nunjucks -->
 {% extends "layout.nunjucks" %}
 {% block content %}
-    <section class="blurbs">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Get the source code</h3>
-            <p>FeedHenry will be fully open source. Stay tuned to contribute or build your own solution.</p>
-            <p>
-              <a href="https://github.com/feedhenry" class="btn btn-block btn-default">
-                <i class="fa fa-github"></i> 
-                FeedHenry on GitHub
-              </a>
-            </p>
-          </div><!-- col -->
-          <div class="col-md-4">
-            <h3>Follow us</h3>
-            <p>Be the first to know, get the latest news and updates on Twitter.</p>
-            <p>
-              <a href="https://twitter.com/feedhenry" class="btn btn-block btn-default">
-                <i class="fa fa-twitter"></i>
-                FeedHenry on Twitter
-              </a>
-            </p>
-          </div><!-- col -->
-          <div class="col-md-4">
-            <h3>Connect with us</h3>
-            <p>Chat with the FeedHenry team and the FeedHenry community at our Freenode IRC channel.</p>
-            <p>
-              <a href="irc://irc.freenode.net/feedhenry" class="btn btn-block btn-default">
-                <i class="fa fa-comments-o"></i>
-                #feedhenry on Freenode IRC
-              </a>
-            </p>
-          </div><!-- col -->
 
-        </div><!-- row -->
-      </div><!-- container -->
-    </section>  
+<section id="landing">
+  <div class="container">
 
-    <section class="call">
-      <div class="container">
-        <h2>Develop, Deploy, Manage and Monitor</h2>
-        <p>FeedHenry, the mobile application platform based on open technologies, is a one stop solution for all your mobility needs.</p>
+    <img class="img-responsive" type="image/svg+xml" id="raincatcher" src="/img/raincatcher-inverted.svg" alt="FeedHenry RainCatcher" />
+    <div class="clearfix"></div>    
+    <img class="hidden-xs" id="tentacle" src="/img/tentacle.png" />
 
-        <p>The platform offers developers the flexibility to create native (Android, iOS, Windows Phone), hybrid, HTML5 or web apps and supports a wide variety of popular developer toolkits and frameworks.</p>
+    <p class="lead">In September 2014, Red Hat acquired FeedHenry, a mobile application services company based in Waterford, Ireland. With the acquisition, FeedHenry's supported offerings moved under the <a href="https://www.redhat.com/en/technologies/mobile/application-platform">Red Hat Mobile Application Platform</a> and the "FeedHenry" name was retained for releasing related open source projects.</p>
 
-        <p>The mobile Backend-as-a-Service (mBaaS) simplifies backend integration to business systems, speeding app delivery with reusable connectors and plug-ins.</p>
+    <p>One of the first projects we're proud to make public is RainCatcher, a field workforce management (WFM) application. Along with it, we are also opening the mobile client SDKs and application templates to help you get started in building your own mobile applications.</p>
 
-        <a href="http://www.feedhenry.com" class="btn btn-default">More information on the current platform</a>
+    <a href="https://www.redhat.com/mailman/listinfo/feedhenry-announce" target="_blank" class="btn btn-primary btn-lg">Subscribe to our Mailing List !</a>
+    <a href="/faq.html" target="_blank" class="btn btn-primary btn-lg">Frequently Asked Questions</a>
 
-      </div><!-- container -->
-    </section>  
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-xs-12">
+        <h2 class="text-center"><a href="raincatcher.html">RainCatcher</a></h2>
+        <p class="small text-center"><i>image placeholder</i></p>
+        <p class="lead">At the top-level, RainCatcher is a set of NodeJS modules that are used to develop workforce management (WFM) applications.</p>
+
+        <p>To help you get started, the modules come with a sample mobile application and Web portal based on Angular.js using Material Design, which you can use to bootstrap your own developments and <a href="http://www.feedhenry.com/release-of-v3-10-of-the-red-hat-mobile-application-platform-including-swift-2-1-and-wfm/">create a solution like this</a>.</p>
+
+        <p>See the <a href="https://github.com/feedhenry-staff/wfm-doc/blob/master/Getting-Started.md">Getting Started Guide</a> as well. //FIXME: rewrite this?</p>
+      </div>
+
+      <div class="col-sm-4 col-xs-12">
+        <h2 class="text-center"><a href="sdk.html">Mobile SDKs</a></h2>
+        <p class="small text-center"><i>image placeholder</i></p>
+        <p class="lead">Sed sollicitudin sem at ipsum interdum egestas. Curabitur eget elementum nisl. Donec a hendrerit mauris, sed vulputate orci. </p>
+
+        <p>Nulla pretium vestibulum massa, sed mattis arcu vestibulum eget. Aenean pretium vel nisi non rutrum. Etiam sit amet lobortis tellus, ut tempus tellus. Suspendisse potenti.</p>
+
+        <p><a href="sdk.html">Read more...</a></p>
+      </div>
+
+      <div class="col-sm-4 col-xs-12">
+        <h2 class="text-center"><a href="templates.html">Application Templates</a></h2>
+        <p class="small text-center"><i>image placeholder</i></p>
+        <p class="lead">Sed rhoncus enim velit, sit amet ornare tellus ultrices id. Suspendisse fermentum viverra lobortis.</p>
+
+        <p>Curabitur eu facilisis libero, et porttitor justo. Donec venenatis luctus lectus vel elementum. Aenean pellentesque lacinia nisl. Integer eu feugiat augue. Nam posuere, lectus eu fringilla suscipit, mi orci porttitor urna, efficitur eleifend libero orci eget massa.</p>
+
+        <p>See the <a href="https://github.com/feedhenry-templates">templates on Github</a> or <a href="sdk.html">read more about the SDKs</a>.</p>
+      </div>
+
+    </div>  
+  </div>
+</section>
+
+<section class="blurbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Get the source code</h3>
+        <p>FeedHenry will be fully open source. Stay tuned to contribute or build your own solution.</p>
+        <p>
+          <a href="https://github.com/feedhenry" class="btn btn-block btn-default">
+            <i class="fa fa-github"></i> 
+            FeedHenry on GitHub
+          </a>
+        </p>
+      </div><!-- col -->
+      <div class="col-md-4">
+        <h3>Follow us</h3>
+        <p>Be the first to know, get the latest news and updates on Twitter.</p>
+        <p>
+          <a href="https://twitter.com/feedhenry" class="btn btn-block btn-default">
+            <i class="fa fa-twitter"></i>
+            FeedHenry on Twitter
+          </a>
+        </p>
+      </div><!-- col -->
+      <div class="col-md-4">
+        <h3>Connect with us</h3>
+        <p>Chat with the FeedHenry team and the FeedHenry community at our Freenode IRC channel.</p>
+        <p>
+          <a href="irc://irc.freenode.net/feedhenry" class="btn btn-block btn-default">
+            <i class="fa fa-comments-o"></i>
+            #feedhenry on Freenode IRC
+          </a>
+        </p>
+      </div><!-- col -->
+
+    </div><!-- row -->
+  </div><!-- container -->
+</section>  
+
+<section>
+  <div class="container">
+    <h2>Develop, Deploy, Manage and Monitor</h2>
+    <p>FeedHenry, the mobile application platform based on open technologies, is a one stop solution for all your mobility needs.</p>
+
+    <p>The platform offers developers the flexibility to create native (Android, iOS, Windows Phone), hybrid, HTML5 or web apps and supports a wide variety of popular developer toolkits and frameworks.</p>
+
+    <p>The mobile Backend-as-a-Service (mBaaS) simplifies backend integration to business systems, speeding app delivery with reusable connectors and plug-ins.</p>
+
+    <a href="http://www.feedhenry.com" class="btn btn-default">More information on the current platform</a>
+
+  </div>
+</section>  
 
 {% endblock %}
 

@@ -1,0 +1,8 @@
+<!-- community.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+
+  <h1> Community </h1>
+
+{% endblock %}
+
