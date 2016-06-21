@@ -1,4 +1,4 @@
 # backup files from emacs
 *~
-
+node_modules*
 
