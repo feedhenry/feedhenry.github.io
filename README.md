@@ -28,6 +28,10 @@ Install gulp browsersync for live reload
 
 `npm install browser-sync gulp --save-dev`
 
+Install nunjucks templating
+
+`npm install gulp-nunjucks-render --save-dev`
+
 Then run:
 
 `$ gulp`
