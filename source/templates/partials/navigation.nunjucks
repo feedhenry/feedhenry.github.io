@@ -37,6 +37,9 @@
       <ul class="nav navbar-nav">
 	<li><a class="blog" href="/community.html">Community</a></li>
       </ul>
+      <ul class="nav navbar-nav">
+	<li><a class="blog" href="/about.html">About</a></li>
+      </ul>
     </div>
   </div>
 </nav>
