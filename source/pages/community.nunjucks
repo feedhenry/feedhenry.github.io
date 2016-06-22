@@ -2,7 +2,13 @@
 {% extends "layout.nunjucks" %}
 {% block content %}
 
-  <h1> Community </h1>
+<section>
+  <div class="container">
+  
+  <h1> Open Source Community </h1>
+
+  </div>
+</section>
 
 {% endblock %}
 
