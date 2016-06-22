@@ -6797,6 +6797,14 @@ footer {
 section:nth-child(2n) {
   background: #eeeeee;
 }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+footer {
+  flex: 1;
+}
 footer {
   border-top: 2px solid rgba(0, 0, 0, 0.87);
   background: #222;
