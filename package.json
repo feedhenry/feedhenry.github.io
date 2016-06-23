@@ -1,0 +1,29 @@
+{
+  "name": "feedhenry.github.com",
+  "version": "1.0.0",
+  "description": "feedhenry.org website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feedhenry/feedhenry.github.com.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/feedhenry/feedhenry.github.com/issues"
+  },
+  "homepage": "https://github.com/feedhenry/feedhenry.github.com#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^1.5.4"
+  }
+}

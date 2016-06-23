@@ -2,43 +2,21 @@
 
 Prepare for an Open Mobile Application Platform by developers, for developers.
 
-## Run with gulp
+## Build the site
 
-Install gulp globally:
+To compile the less and template files, run:
 
-`npm install --global gulp`
+* `npm install`
+* `npm run build`
 
-Install gulp in your project devDependencies:
+## Develop the site
 
-`npm install --save-dev gulp`
+To develop the site, run:
 
-Install gulp less plugin
+* `npm install`
+* `npm start`
 
-`npm install --save-dev gulp-less`
-
-Install gulp uglify plugin for js
-
-`npm install --save-dev gulp-uglify`
-
-Install gulp plumber to output errors
-
-`npm install --save-dev gulp-plumber`
-
-Install gulp browsersync for live reload
-
-`npm install browser-sync gulp --save-dev`
-
-Install nunjucks templating
-
-`npm install gulp-nunjucks-render --save-dev`
-
-Then run:
-
-`$ gulp`
-
-It'll open:
-
-`http://localhost:3000/`
+A live-reloading page will open at: http://localhost:3000/
 
 
 ## Make changes

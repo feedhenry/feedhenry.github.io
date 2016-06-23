@@ -7,12 +7,12 @@ var gulp = require('gulp'),
     reload = browserSync.reload;
 
 // Uglyfies js on to /js/minjs
-gulp.task('scripts', function(){  
+gulp.task('scripts', function(){
   gulp.src('js/*.js')
     .pipe(plumber())
     .pipe(uglify())
     .pipe(gulp.dest("js/minjs"));
-}); 
+});
 
 
 // Compiles less on to /css
@@ -50,12 +50,13 @@ gulp.task('bs-reload', function () {
 });
 
 // watch for changes on files
-gulp.task('watch', function(){ 
+gulp.task('watch', function(){
     gulp.watch('js/*.js', ['scripts']);
     gulp.watch('source/less/*.less', ['less']);
     gulp.watch('source/**/*.nunjucks', ['nunjucks']);
     gulp.watch("*.*", ['bs-reload']);
-}); 
+});
 
 // deploys
-gulp.task('default',  ['scripts', 'less', 'nunjucks', 'browser-sync','watch']);
+gulp.task('build',  ['scripts', 'less', 'nunjucks']);
+gulp.task('default',  ['build', 'browser-sync','watch']);
