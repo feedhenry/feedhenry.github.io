@@ -25,6 +25,7 @@
 	    <li><a href="raincatcher.html">Raincatcher Workforce Management</a></li>
 	    <li><a href="sdk.html">Software Development Kits</a></li>
 	    <li><a href="templates.html">Application Templates</a></li>
+	    <li><a href="aerogear.html">AeroGear Project</a></li>
 	  </ul>
 	</li>
       </ul>
@@ -43,5 +44,3 @@
     </div>
   </div>
 </nav>
-
-
