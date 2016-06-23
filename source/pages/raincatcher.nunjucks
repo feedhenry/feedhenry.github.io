@@ -49,7 +49,7 @@
 
 <p>To help get started, the modules come with a sample mobile application and Web portal based on Angular.js using Material Design, which you can use to bootstrap your own developments and <a href="http://www.feedhenry.com/release-of-v3-10-of-the-red-hat-mobile-application-platform-including-swift-2-1-and-wfm/">create a solution like this</a></p>
 
-<p>See the <a href="https://github.com/feedhenry-staff/wfm-doc/blob/master/Getting-Started.md">Getting Started Guide</a> as well. //FIXME: rewrite this?</p>
+<p>See the <a href="https://github.com/feedhenry-staff/wfm-doc/blob/master/Getting-Started.md">Getting Started Guide</a> as well.</p>
 
   </div>
 </section>
