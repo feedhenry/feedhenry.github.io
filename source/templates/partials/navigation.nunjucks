@@ -32,7 +32,7 @@
 	<li><a class="docs" href="/docs.html">Docs</a></li>
       </ul>
       <ul class="nav navbar-nav">
-	<li><a class="blog" href="http://www.feedhenry.com/category/blog/">Blog</a></li>
+	<li><a class="blog" href="http://developers.redhat.com/blog/category/mobile/">Blog</a></li>
       </ul>
       <ul class="nav navbar-nav">
 	<li><a class="blog" href="/community.html">Community</a></li>
