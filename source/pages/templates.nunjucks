@@ -7,17 +7,28 @@
 
     <h1>Application Templates</h1>
 
-<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+<p>To kick-start the creation of new app projects, the platform offers sample and template apps that provide the fundamentals of building cloud-powered apps and backend integrations. Enhanced online help with fully integrated documentation makes it easier to get you coding, testing and deploying apps within hours.</p>
 
-
+<p>You will find templates to demo:
 <ul>
-   <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-   <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-   <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-   <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+   <li>synchronization,</li>
+   <li>authentication: using OAuth2, SAML,</li>
+   <li>client cloud call, server side route (express) and DB access,</li>
+   <li>push notification.</li>
 </ul>
-            
+</p>        
 
+<p>On client side, each template is available for:
+<ul>
+   <li>HTML5/Cordova (JavaScript),</li>
+   <li>iOS (Objective-C),</li>
+   <li>iOS (Swift),</li>
+   <li>Android (Java),</li>
+   <li>Windows (C#),</li>
+   <li>Xamarin (C#),</li>
+   <li>Appcelerator (JavaScript).</li>
+</ul>
+</p>
   </div>
 </section>
 
