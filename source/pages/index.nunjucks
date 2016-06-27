@@ -14,7 +14,7 @@
     <p>Along with it, we are also opening the mobile client SDKs and application templates to help you get started in building your own mobile applications.</p>
 
     <a href="https://www.redhat.com/mailman/listinfo/feedhenry-dev" target="_blank" class="btn btn-primary btn-lg">Subscribe to our Mailing List!</a>
-    <a href="/faq.html" target="_blank" class="btn btn-primary btn-lg">Frequently Asked Questions</a>
+    <a href="https://github.com/feedhenry-raincatcher" target="_blank" class="btn btn-primary btn-lg">Source on GitHub</a>
 
   </div>
 </section>
