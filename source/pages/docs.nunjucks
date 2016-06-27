@@ -1,0 +1,18 @@
+<!-- templates.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+
+<section>
+  <div class="container">
+
+    <h1>Documentation</h1>
+
+<p>More documentation for FeedHenry Projects will be arriving shortly. Please stand by.</p>
+
+<p>In the meanwhile, you can look through the current <a href="http://docs.feedhenry.com/v3/index.html">FeedHenry developer documentation here</a>.
+
+  </div>
+</section>
+
+{% endblock %}
+

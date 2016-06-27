@@ -1,0 +1,36 @@
+<!-- templates.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+
+<section>
+  <div class="container">
+
+    <h1>Application Templates</h1>
+
+<p>To kick-start the creation of new app projects, the platform offers sample and template apps that provide the fundamentals of building cloud-powered apps and backend integrations. Enhanced online help with fully integrated documentation makes it easier to get you coding, testing and deploying apps within hours.</p>
+
+<p>You will find templates to demo:
+<ul>
+   <li>synchronization,</li>
+   <li>authentication: using OAuth2, SAML,</li>
+   <li>client cloud call, server side route (express) and DB access,</li>
+   <li>push notification.</li>
+</ul>
+</p>        
+
+<p>On client side, each template is available for:
+<ul>
+   <li>HTML5/Cordova (JavaScript),</li>
+   <li>iOS (Objective-C),</li>
+   <li>iOS (Swift),</li>
+   <li>Android (Java),</li>
+   <li>Windows (C#),</li>
+   <li>Xamarin (C#),</li>
+   <li>Appcelerator (JavaScript).</li>
+</ul>
+</p>
+  </div>
+</section>
+
+{% endblock %}
+

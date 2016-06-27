@@ -1,0 +1,30 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+
+<section>
+  <div class="container">
+
+    <h1 class="pull-right text-info"><i class="fa fa-2x fa-question-circle"></i></h1>
+
+    <h1>Frequently Asked Questions (FAQ) about RainCatcher</h1>
+
+    <h3>What's the release cycle for RainCatcher?</h3>
+
+    <p>We have not yet developed a schedule for releases. RainCatcher is still in rapid development, and we're going to be working with the larger community to develop a cadence.</p>
+      
+    <h3>What's the relationship between RainCatcher and RHMAP WFM?</h3>
+
+    <p>RainCatcher is the upstream for WFM, where we do work before pulling it into our supported product. Features in RainCatcher may or may not ultimately land in WFM.</p>
+
+    <h3>I'd like to contribute, do I need to sign a CLA?</h3>
+
+    <p>No, we do not have a CLA for RainCatcher, but contributors do acknowledge that work contributed to RainCatcher is their own work and they have the right to make a copyright.</p>
+
+    <p>If you have more questions, you are welcome to ask them on the <a href="https://www.redhat.com/mailman/listinfo/feedhenry-dev">feedhenry-dev mailing list</a>.</p>
+
+  </div>
+</section>
+
+{% endblock %}
+

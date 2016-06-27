@@ -1,0 +1,39 @@
+<!-- community.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block content %}
+
+<section>
+  <div class="container">
+
+  <h1> AeroGear Open Source Project</h1>
+
+<p>In relation to the FeedHenry open source project, there is another Red Hat open source project, <a href="https://www.aerogear.org">AeroGear</a>. In 2012 the AeroGear project started as Red Hat’s first mobile related research project. The project consists of various community projects, several prototypes, and a large feature set.</p>
+
+  <h2>UnifiedPush Server</h2>
+  <p>The <a href="https://aerogear.org/push">UnifiedPush Server</a> offers an unified Push Notification solution for different platforms, like Android, iOS, Windows and Apache Cordova. In December 2015 it was <a href="http://developers.redhat.com/blog/2015/12/16/open-sourcing-red-hat-mobile-application-platform-unified-push-server/">integrated</a> into the Red Hat Mobile Application Platform. You can see it in action <a href="https://vimeo.com/147840535">here</a>.</p>
+
+  <h2>Client SDKs</h2>
+  <p>The AeroGear team offers feature rich client-side libraries that provide a well aligned APIs for HTTP, Storage, secrurity, sync/offline or push, on various platforms:
+  <ul>
+<li><a href="https://aerogear.org/android/">Android</a></li>
+<li><a href="https://aerogear.org/cordova/">Cordova</a></li>
+<li><a href="https://aerogear.org/ios/">iOS</a></li>
+<li><a href="https://aerogear.org/windows/">Windows</a></li>
+  </ul>
+
+In addition there is a set of <a href="https://aerogear.org/docs/guides/security/oauth2-guide/">OAuth2</a> libraries, containing support for <a href="http://keycloak.jboss.org/">Keycloak</a> and social providers like Google or Facebook.</p>
+
+
+  <h2>Prototypes and research projects</h2>
+  <p>In the community different efforts have been established to explore new areas for AeroGear:</p>
+  <ul>
+<li><a href="https://aerogear.org/sync/">Prototype for Sync, including server moible client APIs</a></li>
+<li><a href="https://github.com/aerogear/aerogear-webpush-server">WebPush protocol implementation</a></li>
+  </ul>
+
+<p>Learn more about the larger <a href="https://aerogear.org/community/">AeroGear community</a>!
+
+  </div>
+</section>
+
+{% endblock %}
