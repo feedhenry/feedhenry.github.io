@@ -12,10 +12,9 @@
 <p>You can use our client SDK with any 3rd party client-side SDKs required, whether for use in native development, or with 3rd party Apache Cordova modules. Our FeedHenry JavaScript SDK does also support pure web clients. So some solutions include both a mobile app for the end-users and a web-console for some admin users (e.g. to manage a middleware DB via the browser interface).
 </p>
 
-<p>To learn more about Client SDK, refer to the <a href="http://docs.feedhenry.com/v3/api/app_api.html">API documentation</a> which comes with code snippets for each language.</p>  
+<p>To learn more about Client SDK, refer to the <a href="http://docs.feedhenry.com/v3/api/app_api.html">API documentation</a> which comes with code snippets for each language.</p>
 
   </div>
 </section>
 
 {% endblock %}
-
