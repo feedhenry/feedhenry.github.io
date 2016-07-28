@@ -25,7 +25,6 @@
     <ul>
       <li><em>wfm-signature</em> for capturing signatures
       <li><em>wfm-map</em> for integrating with google maps
-      <li>...
     </ul>
   <li><b>Angular Services and Directives</b>
     <ul>
@@ -35,22 +34,27 @@
       <li><em>wfm-risk-assessment</em> for assessing the risk at a job site
       <li><em>wfm-vehicle-inspection</em> for vehicle inspection
       <li><em>fh-rc-schedule</em> for job scheduling
-      <li>...
     </ul>
   <li><b>Low-level modules</b>
     <ul>
-      <li>
       <li><em>wfm-sync</em> for data synchronization
       <li><em>wfm-appform</em> for integrating with RHMAP appforms
       <li><em>wfm-mediator</em> an implementation of the mediator pattern
-    <li>...
   </ul>
 </ul>
+
+<p> Find the complete list of modules <a href="https://github.com/feedhenry-raincatcher">here</a></p>
 
 <p>To help get started, the modules come with a sample mobile application and Web portal based on Angular.js using Material Design, which you can use to bootstrap your own developments and <a href="http://www.feedhenry.com/release-of-v3-10-of-the-red-hat-mobile-application-platform-including-swift-2-1-and-wfm/">create a solution like this</a></p>
 
 <p>See the <a href="https://github.com/feedhenry-staff/wfm-doc/blob/master/Getting-Started.md">Getting Started Guide</a> as well.</p>
 
+<h4>Community</h4>
+
+<ul>
+  <li><a href="http://www.redhat.com/mailman/listinfo/feedhenry-raincatcher">feedhenry-raincatcher Mailing List</a></li>
+  <li><a href="irc://irc.freenode.net/feedhenry-raincatcher">IRC: #feedhenry-raincatcher on Freenode</a></li>
+</ul>
   </div>
 </section>
 
