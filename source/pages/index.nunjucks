@@ -35,7 +35,7 @@
         <h3 class="text-center"><a href="sdk.html">Mobile SDKs</a></h2>
         <p class="lead">For the front-end, we have a suite of developer kits for most popular mobile platforms and for hybrid web applications.</p>
 
-        <p>You can build cloud-connected applications that integrate with the FeedHenry platform, natively for Android, iOS, Windows Phone 8+ and cross-platform using Xamarin and HTML5 frameworks like Cordova and Appcelerator.</p>
+        <p>You can build cloud-connected applications that integrate with the RHMAP platform, natively for Android, iOS, Windows Phone 8+ and cross-platform using Xamarin and HTML5 frameworks like Cordova and Appcelerator.</p>
 
         <p><a href="sdk.html">Read more...</a></p>
       </div>
