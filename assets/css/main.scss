@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "bootstrap/bootstrap.scss";
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-brand {
+  background: url(../images/logo.svg) no-repeat center;
+  width: 11.5rem;
+  height: 2.3rem;
+  margin-right: 2rem;
+
+  img {
+    height: 1.6rem;
+    display: block;
+  }
+}
+
+.jumbotron {
+  background: url(../images/pattern.svg) no-repeat center;
+}
