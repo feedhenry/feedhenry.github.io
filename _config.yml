@@ -14,11 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: FeedHenry
-email: support@feedhenry.org
 description: An open-source platform for building mobile applications.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/feedhenry.org" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: feedhenry
 
 # Build settings
 markdown: kramdown
