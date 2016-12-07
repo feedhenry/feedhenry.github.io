@@ -1,7 +1,7 @@
 # feedhenry.org
 
-Website for the FeedHenry project. Built with Jekyll, Bootstrap 4, and hosted
-with GitHub pages.
+Website for the FeedHenry project. Built with Jekyll, Bootstrap 4,
+Font Awesome, and hosted with GitHub pages.
 
 ## Requirements
 
@@ -28,6 +28,5 @@ with GitHub pages.
 
 ```
 bundle exec jekyll serve
+open http://127.0.0.1:4000/
 ```
-
-A live-reloading page will open at http://127.0.0.1:4000/.
