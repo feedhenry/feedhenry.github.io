@@ -2,7 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// Bootstrap overrides
+
+$brand-primary: #2390b0;
+
 @import "bootstrap/bootstrap.scss";
+
+// Home styles
 
 .navbar {
   border-radius: 0;
@@ -21,5 +27,52 @@
 }
 
 .jumbotron {
-  background: url(../images/pattern.svg) no-repeat center;
+  background: url(../images/pattern.svg) center center;
+  background-size: cover;
+  border-radius: 0;
+
+  h1, p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  .subhead {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .btn {
+    background-color: rgba(255,255,255,0.3);
+  }
+}
+
+.page-header {
+  padding: 2rem 0 2rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+footer {
+  #copyright {
+    display: flex;
+    align-items: center;
+    margin-top: -0.125rem;
+  }
+
+  #redhat {
+    display: inline-block;
+    background: url(../images/redhat.svg) no-repeat center;
+    width: 5.35rem;
+    height: 1.44rem;
+  }
+}
+
+// Community styles
+
+#connect {
+  .card-block i {
+    width: 1rem;
+  }
 }
