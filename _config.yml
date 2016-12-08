@@ -16,7 +16,7 @@
 title: FeedHenry
 description: An open-source platform for building mobile applications.
 baseurl: "/feedhenry.org" # the subpath of your site, e.g. /blog
-url: "https://pmdarrow.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://feedhenry.org" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:title/
 
 # Build settings
