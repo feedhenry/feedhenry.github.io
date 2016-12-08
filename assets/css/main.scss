@@ -63,13 +63,22 @@ $brand-primary: #2390b0;
 /**
  * Footer
  */
-
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 9.375rem;
+}
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6.375rem;
   padding: 2.5rem 0;
   color: #999;
   border-top: .05rem solid #e5e5e5;
   background-color: #f9f9f9;
-  margin-top: 3em;
 
   p {
     margin-bottom: 0;
