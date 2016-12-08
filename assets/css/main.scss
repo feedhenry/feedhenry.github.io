@@ -98,6 +98,12 @@ footer {
   }
 }
 
+/**
+ * Documentation
+ */
+.alert :last-child {
+  margin-bottom: 0;
+}
 
 /**
  * Community
