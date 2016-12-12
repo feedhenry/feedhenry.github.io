@@ -7,7 +7,7 @@ layout: default
     <h1 class="display-4">Accelerate mobile app development</h1>
     <p class="subhead">An <strong>open-source</strong> mobile application platform that is simple, secure, and scalable.</p>
     <p>
-      <a class="btn btn-secondary btn-lg" href="#" role="button">View a Demo</a>
+      <a class="btn btn-secondary btn-lg" href="#" role="button" data-toggle="modal" data-target="#demoModal">Watch a Demo</a>
       <a class="btn btn-secondary btn-lg" href="{{ "/docs/" | relative_url }}" role="button">Getting Started</a>
     </p>
 
@@ -49,6 +49,23 @@ layout: default
       <h4>Build farm</h4>
       <p>Build your mobile application for multiple platforms without requiring infrastructure and tools.</p>
       <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="modal" id="demoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LzXw9nu31_U" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
