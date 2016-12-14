@@ -171,25 +171,29 @@ footer {
  */
 
 .projects-page {
-  h2 {
+  .project-title {
     background-color: $card-cap-bg;
     border: $card-border-width solid $card-border-color;
     border-radius: $card-border-radius $card-border-radius 0 0;
     border-bottom: none;
     padding: 2rem;
     margin: 2rem 0 0 0;
+
+    p {
+      margin-bottom: 0;
+    }
   }
   .tag {
     font-size: 100%;
   }
 }
 
-.project {
+.project-text {
   padding: 2rem;
   border: $card-border-width solid $card-border-color;
   border-radius: 0 0 $card-border-radius $card-border-radius;
 
-  p:last-child {
+  :last-child {
     margin-bottom: 0;
   }
 }
@@ -199,17 +203,43 @@ footer {
   margin: 1rem 0 1rem 0;
 
   .list-group-item {
-    background-color: $gray-lightest;
+    background-color: lighten($card-cap-bg, 3%);
   }
   .list-group-item:hover {
     background-color: $gray-lighter;
   }
+  .stars {
+    display: inline-block;
+    width: 55px;
+  }
+  .forks {
+    display: inline-block;
+    width: 45px;
+  }
+}
 
-  .metadata {
-    span {
-      display: inline-block;
-      width: 50px;
-    }
+
+/** Projects table of contents styles **/
+
+.toc-list-item {
+  margin-bottom: 0.5rem;
+}
+
+.toc-link {
+  border-left: 1px solid $gray-light;
+  padding-left: 1rem;
+  white-space: nowrap;
+}
+
+@include media-breakpoint-up(md) {
+  .is-position-fixed {
+    top: 0;
+    position: fixed;
+    margin-top: 1rem;
+  }
+  .toc-link.is-active-link {
+    font-weight: bold;
+    border-left: 3px solid $gray-light;
   }
 }
 

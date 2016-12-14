@@ -1,57 +1,62 @@
 ---
-layout: page
+layout: projects
 title: Projects
 permalink: /projects/
 ---
 
-## Core
+Here's an overview of the components that make up FeedHenry.
 
-<div class="project" markdown="1">
+<div class="project-title" markdown="1">
 
-#### Coming soon
-{: .tag .tag-info}
+## Client SDKs
 
-The core components that make up FeedHenry, including drag & drop forms builder,
-application lifecycle management, reporting, analytics, user management,
-and more.
+Native and hybrid SDKs for mobile app development.
+
+</div>
+
+<div class="project-text" markdown="1">
+
+FeedHenry supports a wide range of mobile development technologies. We provide
+support for native iOS, Android, Windows, Xamarin, Appcelerator, Cordova, and
+other HTML5 app frameworks.
+
+{% include repos.html repos="fh-ios-sdk,fh-ios-swift-sdk,fh-android-sdk,fh-dotnet-sdk,fh-js-sdk" %}
 
 </div>
 
 
-## MBaaS
 
-<div class="project" markdown="1">
+<div class="project-title" markdown="1">
 
-#### Coming soon
-{: .tag .tag-info}
+##  App Templates
 
-Provides the Node.js runtime environment for high-performance server-side apps
-(cloud apps) and enables secure integrations with internal systems behind
-the firewall.
+Starting points for building your applications with FeedHenry.
 
 </div>
 
+<div class="project-text" markdown="1">
 
-## Build Farm
+We've developed app templates for iOS, Android, Xamarin, Appcelerator, Cordova;
+OAuth2 and SAML examples, push notification and data synchronization examples,
+and many more. We've highlighted a few of the popular ones below.
 
-<div class="project" markdown="1">
+{% include repos.html repos="helloworld-app,appforms-project-client,sync-cloud,blank-cordova-app,welcome-cloud" %}
 
-#### Coming soon
-{: .tag .tag-info}
-
-Automates the app build process, maintains a history of previous builds, and
-provides the ability to create builds for platforms without requiring the
-associated infrastructure and tools (e.g. building iOS binaries from a
-Linux OS).
-
+Find a complete list of templates [here](https://github.com/feedhenry/).
 </div>
 
+
+
+<div class="project-title" markdown="1">
 
 ## Push Notifications
 
-<div class="project" markdown="1">
+Integration with [AeroGear] for sending push notifications to any device,
+regardless of platform or network.
 
-#### Overview
+</div>
+
+<div class="project-text" markdown="1">
 
 In 2012, Red Hat launched its first mobile related research project, titled
 [AeroGear]. AeroGear's goal is to provide flexible, extensible libraries and
@@ -65,55 +70,24 @@ send push notifications to any device, regardless of platform or network.
 [AeroGear]: https://www.aerogear.org/
 [UnifiedPush Server]: https://aerogear.org/push
 
-#### Modules
-
-{% include repos.html repos="raincatcher-signature,raincatcher-map" %}
-
+{% include repos.html repos="aerogear-unifiedpush-server,aerogear-ios-push,aerogear-android-push,aerogear-cordova-push,aerogear-windows-push,aerogear-js-push" %}
 
 </div>
 
 
-## Client SDKs
 
-<div class="project" markdown="1">
-
-#### Overview
-
-Native and hybrid SDKs for client app development on iOS, Android, Windows,
-Xamarin, Appcelerator, Cordova, and in web apps.
-
-#### Modules
-
-{% include repos.html repos="raincatcher-signature,raincatcher-map" %}
-
-</div>
-
-
-##  App Templates
-
-<div class="project" markdown="1">
-
-#### Overview
-
-Starting points for building your applications with FeedHenry, including
-templates for iOS, Android, Xamarin, Appcelerator, Cordova; OAuth2 and SAML
-examples, push notification and data synchronization examples, and many more.
-
-#### Modules
-
-{% include repos.html repos="raincatcher-signature,raincatcher-map" %}
-
-</div>
-
+<div class="project-title" markdown="1">
 
 ## RainCatcher
 
-<div class="project" markdown="1">
+A set of Node.js modules that can be used with FeedHenry to develop workforce
+management (WFM) applications.
+
+</div>
+
+<div class="project-text" markdown="1">
 
 #### Overview
-
-RainCatcher is a set of Node.js modules that can be used with FeedHenry to
-develop workforce management (WFM) applications.
 
 RainCatcher modules are packaged and distributed via [npm]. They are designed to
 be included in your application using [Browserify]. RainCatcher modules export
@@ -180,5 +154,56 @@ If you have more questions, you are welcome to ask them on the [feedhenry-rainca
 {% include repos.html repos="raincatcher-sync,raincatcher-appform,raincatcher-mediator" %}
 
 Find the complete list of modules [here](https://github.com/feedhenry-raincatcher).
+
+</div>
+
+
+
+<div class="project-title" markdown="1">
+
+## Core
+
+The core components that make up FeedHenry.
+
+</div>
+
+<div class="project-text" markdown="1">
+
+#### Coming soon
+{: .tag .tag-info}
+
+</div>
+
+
+
+<div class="project-title" markdown="1">
+
+## MBaaS
+
+Provides the Node.js runtime environment for high-performance server-side apps.
+
+</div>
+
+<div class="project-text" markdown="1">
+
+#### Coming soon
+{: .tag .tag-info}
+
+</div>
+
+
+
+<div class="project-title" markdown="1">
+
+## Build Farm
+
+Automates the app build process.
+
+</div>
+
+<div class="project-text" markdown="1">
+
+#### Coming soon
+{: .tag .tag-info}
 
 </div>

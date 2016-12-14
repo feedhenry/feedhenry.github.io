@@ -23,6 +23,7 @@ permalink: /blog/:title/
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
