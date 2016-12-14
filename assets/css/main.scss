@@ -176,9 +176,12 @@ footer {
     border: $card-border-width solid $card-border-color;
     border-radius: $card-border-radius $card-border-radius 0 0;
     border-bottom: none;
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
     margin: 2rem 0 0 0;
 
+    h2 {
+      padding-top: 2rem;
+    }
     p {
       margin-bottom: 0;
     }
