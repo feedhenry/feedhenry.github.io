@@ -24,7 +24,7 @@ FeedHenry's supported offerings released under the
 brand and the "FeedHenry" name was retained for releasing related open source
 projects.
 
-### Components
+### Projects
 
 For most of its life, FeedHenry has been a closed-source SaaS product. Therefore
 the open-sourcing process has been gradual. Here are the components that make up
@@ -39,4 +39,4 @@ FeedHenry:
 | Client SDKs | Native and hybrid SDKs for client app development on iOS, Android, Windows, Xamarin, Appcelerator, Cordova, and in web apps. | <span class="tag tag-success">Available</span>
 | App Templates | Starting points for building your applications with FeedHenry, including templates for iOS, Android, Xamarin, Appcelerator, Cordova; OAuth2 and SAML examples, push notification and data synchronization examples, and many more. | <span class="tag tag-success">Available</span>
 | Rain Catcher | A set of Node.js modules that can be used with FeedHenry to develop workforce management applications. | <span class="tag tag-success">Available</span>
-{: class="table components"}
+{: .table .components}
