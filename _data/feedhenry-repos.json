@@ -1,0 +1,422 @@
+{
+    "fh-basic-webapp-blank-app": {
+        "name": "fh-basic-webapp-blank-app",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/fh-basic-webapp-blank-app",
+        "description": "Basic FeedHenry Webapp. Files will get served statically from a node.js deployed app.",
+        "stargazers_count": 0
+    },
+    "raincatcher-analytics": {
+        "name": "raincatcher-analytics",
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-analytics",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "vmcjs": {
+        "name": "vmcjs",
+        "forks_count": 7,
+        "html_url": "https://github.com/feedhenry/vmcjs",
+        "description": "A node.js library version of the CloudFoundry VMC gem.",
+        "stargazers_count": 20
+    },
+    "websocket-demo-java": {
+        "name": "websocket-demo-java",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/websocket-demo-java",
+        "description": "Java client for the FeedHenry websocket-demo Socket.io Chat demo",
+        "stargazers_count": 0
+    },
+    "fh-fhc": {
+        "name": "fh-fhc",
+        "forks_count": 66,
+        "html_url": "https://github.com/feedhenry/fh-fhc",
+        "description": "FeedHenry CLI, the Command Line Interface to FeedHenry",
+        "stargazers_count": 26
+    },
+    "psjson": {
+        "name": "psjson",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/psjson",
+        "description": "Just simply converts output of a 'ps' command into JSON.",
+        "stargazers_count": 0
+    },
+    "fh-sync-integrations": {
+        "name": "fh-sync-integrations",
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry/fh-sync-integrations",
+        "description": "Sample integrations with the FeedHenry Data Sync Framework",
+        "stargazers_count": 0
+    },
+    "raincatcher-workflow": {
+        "name": "raincatcher-workflow",
+        "forks_count": 5,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-workflow",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "raincatcher-tutorial-cloud": {
+        "name": "raincatcher-tutorial-cloud",
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-tutorial-cloud",
+        "description": "A simple cloud app that consumes the wfm-tutorial-module.",
+        "stargazers_count": 0
+    },
+    "raincatcher-risk-assessment": {
+        "name": "raincatcher-risk-assessment",
+        "forks_count": 5,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-risk-assessment",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "turbo": {
+        "name": "turbo",
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry/turbo",
+        "description": "Turbo the Node.js Test Runner",
+        "stargazers_count": 2
+    },
+    "fhc-studio": {
+        "name": "fhc-studio",
+        "forks_count": 9,
+        "html_url": "https://github.com/feedhenry/fhc-studio",
+        "description": "FH Studio in Expresso",
+        "stargazers_count": 16
+    },
+    "raincatcher-cli": {
+        "name": "raincatcher-cli",
+        "forks_count": 6,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-cli",
+        "description": "A CLI for working with WFM repositories",
+        "stargazers_count": 1
+    },
+    "raincatcher-file": {
+        "name": "raincatcher-file",
+        "forks_count": 5,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-file",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "monkeytalk-test-app": {
+        "name": "monkeytalk-test-app",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry/monkeytalk-test-app",
+        "description": "FH Hybrid App with MonkeyTalk tests.",
+        "stargazers_count": 2
+    },
+    "fh-js-sdk": {
+        "name": "fh-js-sdk",
+        "forks_count": 32,
+        "html_url": "https://github.com/feedhenry/fh-js-sdk",
+        "description": "FeedHenry Javascript SDK",
+        "stargazers_count": 3
+    },
+    "raincatcher-demo-portal": {
+        "name": "raincatcher-demo-portal",
+        "forks_count": 13,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-portal",
+        "description": null,
+        "stargazers_count": 1
+    },
+    "node-oracle": {
+        "name": "node-oracle",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/node-oracle",
+        "description": "node.js driver to connect with an oracle database.",
+        "stargazers_count": 0
+    },
+    "fh-android-sdk-blank-app": {
+        "name": "fh-android-sdk-blank-app",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry/fh-android-sdk-blank-app",
+        "description": "FeedHenry Native Android Blank Application",
+        "stargazers_count": 0
+    },
+    "raincatcher-push": {
+        "name": "raincatcher-push",
+        "forks_count": 2,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-push",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "fh-streamer": {
+        "name": "fh-streamer",
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry/fh-streamer",
+        "description": "*NO LONGER MAINTAINED* Utility module for returning chunks and offsets of streams",
+        "stargazers_count": 0
+    },
+    "fh-ios-sdk": {
+        "name": "fh-ios-sdk",
+        "forks_count": 17,
+        "html_url": "https://github.com/feedhenry/fh-ios-sdk",
+        "description": "FeedHenry iOS SDK",
+        "stargazers_count": 8
+    },
+    "raincatcher-user": {
+        "name": "raincatcher-user",
+        "forks_count": 13,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-user",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "raincatcher-schedule": {
+        "name": "raincatcher-schedule",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-schedule",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "raincatcher-message": {
+        "name": "raincatcher-message",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-message",
+        "description": null,
+        "stargazers_count": 1
+    },
+    "fh-template-apps": {
+        "name": "fh-template-apps",
+        "forks_count": 48,
+        "html_url": "https://github.com/feedhenry/fh-template-apps",
+        "description": "Repo for configuration of project and app repo urls",
+        "stargazers_count": 1
+    },
+    "FeedHenryApiTester": {
+        "name": "FeedHenryApiTester",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/FeedHenryApiTester",
+        "description": "For Testing FH Client APIs ",
+        "stargazers_count": 0
+    },
+    "raincatcher-demo-mobile": {
+        "name": "raincatcher-demo-mobile",
+        "forks_count": 13,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-mobile",
+        "description": null,
+        "stargazers_count": 3
+    },
+    "raincatcher-tutorial-client": {
+        "name": "raincatcher-tutorial-client",
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-tutorial-client",
+        "description": "The client app that consumes the raincatcher-tutorial-module.",
+        "stargazers_count": 0
+    },
+    "Node.js-Smoke-Test-App": {
+        "name": "Node.js-Smoke-Test-App",
+        "forks_count": 46,
+        "html_url": "https://github.com/feedhenry/Node.js-Smoke-Test-App",
+        "description": "Basic app that demos the various aspects of FeedHenry node.js.",
+        "stargazers_count": 35
+    },
+    "raincatcher-mediator": {
+        "name": "raincatcher-mediator",
+        "forks_count": 5,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-mediator",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "feedhenry.github.com": {
+        "name": "feedhenry.github.com",
+        "forks_count": 9,
+        "html_url": "https://github.com/feedhenry/feedhenry.github.com",
+        "description": "feedhenry.org website",
+        "stargazers_count": 1
+    },
+    "openstack-storage": {
+        "name": "openstack-storage",
+        "forks_count": 15,
+        "html_url": "https://github.com/feedhenry/openstack-storage",
+        "description": null,
+        "stargazers_count": 14
+    },
+    "raincatcher-camera": {
+        "name": "raincatcher-camera",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-camera",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "monitjs": {
+        "name": "monitjs",
+        "forks_count": 5,
+        "html_url": "https://github.com/feedhenry/monitjs",
+        "description": "A node.js client library for Monit. ",
+        "stargazers_count": 6
+    },
+    "raincatcher-result": {
+        "name": "raincatcher-result",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-result",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "raincatcher-store": {
+        "name": "raincatcher-store",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-store",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "raincatcher-demo-auth": {
+        "name": "raincatcher-demo-auth",
+        "forks_count": 13,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-auth",
+        "description": null,
+        "stargazers_count": 1
+    },
+    "raincatcher-gps": {
+        "name": "raincatcher-gps",
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-gps",
+        "description": "A small GPS raincatcher module that publishes and subscribes to location based topics.",
+        "stargazers_count": 1
+    },
+    "connect": {
+        "name": "connect",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/connect",
+        "description": "Connect is a middleware layer for Node.js",
+        "stargazers_count": 0
+    },
+    "nodejs-adventure": {
+        "name": "nodejs-adventure",
+        "forks_count": 2,
+        "html_url": "https://github.com/feedhenry/nodejs-adventure",
+        "description": "The FeedHenry Node.js Adventure presentation",
+        "stargazers_count": 0
+    },
+    "raincatcher-documentation": {
+        "name": "raincatcher-documentation",
+        "forks_count": 2,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-documentation",
+        "description": null,
+        "stargazers_count": 1
+    },
+    "Basic-App": {
+        "name": "Basic-App",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/Basic-App",
+        "description": "Basic App",
+        "stargazers_count": 0
+    },
+    "raincatcher-template-build": {
+        "name": "raincatcher-template-build",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-template-build",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "raincatcher-workorder": {
+        "name": "raincatcher-workorder",
+        "forks_count": 4,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-workorder",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "raincatcher-map": {
+        "name": "raincatcher-map",
+        "forks_count": 5,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-map",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "appforms-project-client": {
+        "name": "appforms-project-client",
+        "forks_count": 9,
+        "html_url": "https://github.com/feedhenry/appforms-project-client",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "AppForms-Template": {
+        "name": "AppForms-Template",
+        "forks_count": 16,
+        "html_url": "https://github.com/feedhenry/AppForms-Template",
+        "description": "FeedHenry App Forms Template App",
+        "stargazers_count": 7
+    },
+    "fh-android-sdk": {
+        "name": "fh-android-sdk",
+        "forks_count": 13,
+        "html_url": "https://github.com/feedhenry/fh-android-sdk",
+        "description": "FeedHenry Android Native SDK",
+        "stargazers_count": 4
+    },
+    "HP-JQM-Demo": {
+        "name": "HP-JQM-Demo",
+        "forks_count": 6,
+        "html_url": "https://github.com/feedhenry/HP-JQM-Demo",
+        "description": null,
+        "stargazers_count": 7
+    },
+    "fh-connect": {
+        "name": "fh-connect",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/fh-connect",
+        "description": "FeedHenry version of the 'connect' module, published to npm",
+        "stargazers_count": 0
+    },
+    "raincatcher-cloud-test": {
+        "name": "raincatcher-cloud-test",
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-cloud-test",
+        "description": "Test cloud app for testing raincatcher module cloud functionality.",
+        "stargazers_count": 0
+    },
+    "raincatcher-tutorial-module": {
+        "name": "raincatcher-tutorial-module",
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-tutorial-module",
+        "description": "A simple Raincatcher module to demonstrate Raincatcher concepts.",
+        "stargazers_count": 0
+    },
+    "raincatcher-demo-cloud": {
+        "name": "raincatcher-demo-cloud",
+        "forks_count": 15,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud",
+        "description": null,
+        "stargazers_count": 1
+    },
+    "raincatcher-vehicle-inspection": {
+        "name": "raincatcher-vehicle-inspection",
+        "forks_count": 5,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-vehicle-inspection",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "raincatcher-sync": {
+        "name": "raincatcher-sync",
+        "forks_count": 8,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-sync",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "FHActProxy": {
+        "name": "FHActProxy",
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry/FHActProxy",
+        "description": "Ext.ux.FHActProxy (Sencha Touch 2.x Custom Proxy)",
+        "stargazers_count": 2
+    },
+    "raincatcher-signature": {
+        "name": "raincatcher-signature",
+        "forks_count": 6,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-signature",
+        "description": "A signature component for WFM",
+        "stargazers_count": 0
+    },
+    "raincatcher-appform": {
+        "name": "raincatcher-appform",
+        "forks_count": 8,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-appform",
+        "description": null,
+        "stargazers_count": 0
+    },
+    "fh-ios-sdk-blank-app": {
+        "name": "fh-ios-sdk-blank-app",
+        "forks_count": 5,
+        "html_url": "https://github.com/feedhenry/fh-ios-sdk-blank-app",
+        "description": "FeedHenry Native iOS Blank App",
+        "stargazers_count": 0
+    }
+}

@@ -167,6 +167,23 @@ footer {
 
 
 /**
+ * Projects
+ */
+
+.repos {
+  max-width: 650px;
+  margin: 1rem 0 1rem 0;
+
+  .metadata {
+    span {
+      display: inline-block;
+      width: 50px;
+    }
+  }
+}
+
+
+/**
  * Documentation
  */
 
