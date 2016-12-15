@@ -141,6 +141,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages (>= 104)
   jekyll-feed (~> 0.6)
+  jekyll-seo-tag (~> 2.1)
+  jekyll-sitemap (~> 0.12)
+  jemoji (~> 0.7)
 
 RUBY VERSION
    ruby 2.3.3p222
