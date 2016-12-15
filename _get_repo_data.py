@@ -7,7 +7,7 @@ How to run:
 
 $ pip install requests
 $ pip install --pre github3.py
-$ python get_repo_data.py
+$ python _get_repo_data.py
 """
 
 import github3
