@@ -7,11 +7,11 @@ permalink: /overview/
 ### What is FeedHenry?
 
 FeedHenry is a cloud-based enterprise mobile application platform that enables
-users to design, develop, deploy and manage applications for mobile devices.
-The platform specializes in extending enterprise systems to mobile devices,
-and provides mobile-specific services for security, notifications and
-data synchronization. Developers can easily build backend logic that supports
-their mobile applications—all in a secure, scalable manner.
+users to design, develop, deploy and manage applications for mobile devices. The
+platform specializes in extending enterprise systems to mobile devices, and
+provides mobile-specific services for security, notifications and data
+synchronization. Developers can easily build backend logic that supports their
+mobile applications—all in a secure, scalable manner.  
 
 ### Background
 
