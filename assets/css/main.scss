@@ -198,6 +198,13 @@ footer {
   .tag {
     font-size: 100%;
   }
+  .page-header {
+    margin-bottom: 1rem;
+  }
+}
+
+.projects-content {
+  margin-top: 1rem;
 }
 
 .project-text {
@@ -233,6 +240,10 @@ footer {
 
 /** Projects table of contents styles **/
 
+.toc-list {
+  margin-top: 1rem;
+}
+
 .toc-list-item {
   margin-bottom: 0.5rem;
 }
@@ -247,7 +258,6 @@ footer {
   .is-position-fixed {
     top: 0;
     position: fixed;
-    margin-top: 1rem;
   }
   .toc-link.is-active-link {
     font-weight: bold;
