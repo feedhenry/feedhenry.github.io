@@ -82,6 +82,15 @@ $brand-primary: #2390b0;
   margin-bottom: 2rem;
 }
 
+.features {
+  i {
+    margin-right: 0.5rem;
+  }
+  .row div {
+    padding-top: 1rem;
+  }
+}
+
 
 /**
  * Demo video styles
