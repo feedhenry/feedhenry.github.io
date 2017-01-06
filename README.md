@@ -1,3 +1,5 @@
+### No longer maintained, please see https://github.com/feedhenry/feedhenry.org.
+
 # feedhenry.org
 
 Prepare for an Open Mobile Application Platform by developers, for developers.
