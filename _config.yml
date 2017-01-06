@@ -16,7 +16,7 @@
 title: FeedHenry
 tagline: Accelerate mobile app development
 description: An open-source mobile application platform that is simple, secure and scalable.
-baseurl: /feedhenry.org # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: http://feedhenry.org # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:title/
 twitter:
