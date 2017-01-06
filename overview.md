@@ -18,10 +18,10 @@ mobile applications—all in a secure, scalable manner.
 FeedHenry was initially built by a mobile application services company of the
 same name based in Waterford, Ireland. In September 2014, Red Hat acquired
 FeedHenry, and in keeping with their [philosophy](http://community.redhat.com/software/),
-began the process of open-sourcing the platform. With the acquisition,
-FeedHenry's supported offerings released under the
+began the process of open-sourcing the platform. Following the acquisition,
+FeedHenry's supported offerings were released under the
 [Red Hat Mobile Application Platform](https://www.redhat.com/en/technologies/mobile/application-platform)
-brand and the "FeedHenry" name was retained for releasing related open source
+brand, and the "FeedHenry" name was retained for releasing related open source
 projects.
 
 ### Components
