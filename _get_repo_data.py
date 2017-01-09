@@ -10,8 +10,8 @@ $ pip install --pre github3.py
 $ python _get_repo_data.py
 """
 
-import github3
 import json
+import github3
 
 def get_repo_data(org_name):
     repos = github3.repositories_by(org_name)
@@ -33,4 +33,4 @@ if __name__ == '__main__':
     all_repos.update(get_repo_data('aerogear'))
 
     with open('_data/feedhenry-repos.json', 'w') as f:
-        json.dump(all_repos, f, indent=4)
+        json.dump(all_repos, f, indent=4, sort_keys=True)
