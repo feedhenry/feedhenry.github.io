@@ -87,6 +87,8 @@ management (WFM) applications.
 
 <div class="project-text" markdown="1">
 
+<img src="{{ "/assets/images/raincatcher.svg" | relative_url }}" alt="RainCatcher Logo" class="raincatcher-logo" />
+
 #### Overview
 
 RainCatcher modules are packaged and distributed via [npm]. They are designed to
