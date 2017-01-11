@@ -58,6 +58,8 @@ regardless of platform or network.
 
 <div class="project-text" markdown="1">
 
+<img src="{{ "/assets/images/aerogear.svg" | relative_url }}" alt="AeroGear Logo" class="project-logo" />
+
 In 2012, Red Hat launched its first mobile related research project, titled
 [AeroGear]. AeroGear's goal is to provide flexible, extensible libraries and
 server side components that simplify mobile development and infrastructure setup
@@ -87,7 +89,7 @@ management (WFM) applications.
 
 <div class="project-text" markdown="1">
 
-<img src="{{ "/assets/images/raincatcher.svg" | relative_url }}" alt="RainCatcher Logo" class="raincatcher-logo" />
+<img src="{{ "/assets/images/raincatcher.svg" | relative_url }}" alt="RainCatcher Logo" class="project-logo" />
 
 #### Overview
 
