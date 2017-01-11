@@ -116,7 +116,7 @@
         "forks_count": 11,
         "html_url": "https://github.com/aerogear/aerogear-aerodoc-backend",
         "name": "aerogear-aerodoc-backend",
-        "stargazers_count": 2
+        "stargazers_count": 3
     },
     "aerogear-aerodoc-ios": {
         "description": null,
@@ -130,7 +130,7 @@
         "forks_count": 3,
         "html_url": "https://github.com/aerogear/aerogear-aerodoc-web",
         "name": "aerogear-aerodoc-web",
-        "stargazers_count": 2
+        "stargazers_count": 3
     },
     "aerogear-android": {
         "description": "Android Java client library implementation for AeroGear",
@@ -158,7 +158,7 @@
         "forks_count": 33,
         "html_url": "https://github.com/aerogear/aerogear-android-cookbook",
         "name": "aerogear-android-cookbook",
-        "stargazers_count": 22
+        "stargazers_count": 23
     },
     "aerogear-android-core": {
         "description": "The core library contains common components and interfaces which the rest of the AeroGear Android libraries depend on. ",
@@ -242,7 +242,7 @@
         "forks_count": 10,
         "html_url": "https://github.com/aerogear/aerogear-cordova-cookbook",
         "name": "aerogear-cordova-cookbook",
-        "stargazers_count": 3
+        "stargazers_count": 4
     },
     "aerogear-cordova-crypto": {
         "description": null,
@@ -347,7 +347,7 @@
         "forks_count": 20,
         "html_url": "https://github.com/aerogear/aerogear-ios-cookbook",
         "name": "aerogear-ios-cookbook",
-        "stargazers_count": 13
+        "stargazers_count": 14
     },
     "aerogear-ios-http": {
         "description": null,
@@ -494,7 +494,7 @@
         "forks_count": 45,
         "html_url": "https://github.com/aerogear/aerogear-otp-java",
         "name": "aerogear-otp-java",
-        "stargazers_count": 49
+        "stargazers_count": 50
     },
     "aerogear-otp-js": {
         "description": null,
@@ -666,10 +666,10 @@
     },
     "aerogear-unifiedpush-server": {
         "description": ":rocket: AeroGear UnifiedPush Server",
-        "forks_count": 141,
+        "forks_count": 142,
         "html_url": "https://github.com/aerogear/aerogear-unifiedpush-server",
         "name": "aerogear-unifiedpush-server",
-        "stargazers_count": 310
+        "stargazers_count": 311
     },
     "aerogear-unifiedpush-server-integration-tests": {
         "description": null,
@@ -778,7 +778,7 @@
     },
     "blank-android-app": {
         "description": "Native Android Blank Sample App",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/blank-android-app",
         "name": "blank-android-app",
         "stargazers_count": 0
@@ -1289,7 +1289,7 @@
     },
     "fh-fhc": {
         "description": "FeedHenry CLI, the Command Line Interface to FeedHenry",
-        "forks_count": 67,
+        "forks_count": 70,
         "html_url": "https://github.com/feedhenry/fh-fhc",
         "name": "fh-fhc",
         "stargazers_count": 26
@@ -1359,7 +1359,7 @@
     },
     "fh-mbaas": {
         "description": null,
-        "forks_count": 12,
+        "forks_count": 16,
         "html_url": "https://github.com/feedhenry/fh-mbaas",
         "name": "fh-mbaas",
         "stargazers_count": 1
@@ -1401,7 +1401,7 @@
     },
     "fh-messaging": {
         "description": "FeedHenry Messaging Server",
-        "forks_count": 10,
+        "forks_count": 13,
         "html_url": "https://github.com/feedhenry/fh-messaging",
         "name": "fh-messaging",
         "stargazers_count": 0
@@ -1453,7 +1453,7 @@
         "forks_count": 1,
         "html_url": "https://github.com/feedhenry/fh-openshift",
         "name": "fh-openshift",
-        "stargazers_count": 3
+        "stargazers_count": 4
     },
     "fh-openshift-templates": {
         "description": "fh-openshift-templates",
@@ -1499,7 +1499,7 @@
     },
     "fh-stats": {
         "description": "FeedHenry Stats Client/Server ",
-        "forks_count": 6,
+        "forks_count": 9,
         "html_url": "https://github.com/feedhenry/fh-stats",
         "name": "fh-stats",
         "stargazers_count": 0
@@ -1534,7 +1534,7 @@
     },
     "fh-template-apps": {
         "description": "Repo for configuration of project and app repo urls",
-        "forks_count": 50,
+        "forks_count": 53,
         "html_url": "https://github.com/feedhenry/fh-template-apps",
         "name": "fh-template-apps",
         "stargazers_count": 1
@@ -1660,7 +1660,7 @@
     },
     "helloworld-cloud": {
         "description": null,
-        "forks_count": 10,
+        "forks_count": 11,
         "html_url": "https://github.com/feedhenry-templates/helloworld-cloud",
         "name": "helloworld-cloud",
         "stargazers_count": 0
@@ -2052,14 +2052,14 @@
     },
     "raincatcher-demo-auth": {
         "description": null,
-        "forks_count": 13,
+        "forks_count": 14,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-auth",
         "name": "raincatcher-demo-auth",
         "stargazers_count": 1
     },
     "raincatcher-demo-cloud": {
         "description": null,
-        "forks_count": 17,
+        "forks_count": 18,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud",
         "name": "raincatcher-demo-cloud",
         "stargazers_count": 1
@@ -2157,7 +2157,7 @@
     },
     "raincatcher-simple-store": {
         "description": null,
-        "forks_count": 0,
+        "forks_count": 2,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-simple-store",
         "name": "raincatcher-simple-store",
         "stargazers_count": 0
@@ -2178,7 +2178,7 @@
     },
     "raincatcher-sync": {
         "description": "A sync module for FeedHenry WFM",
-        "forks_count": 8,
+        "forks_count": 9,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-sync",
         "name": "raincatcher-sync",
         "stargazers_count": 0
@@ -2234,7 +2234,7 @@
     },
     "raincatcher-workorder": {
         "description": "A workorder model representation and its related services",
-        "forks_count": 5,
+        "forks_count": 6,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-workorder",
         "name": "raincatcher-workorder",
         "stargazers_count": 0
@@ -2555,7 +2555,7 @@
         "stargazers_count": 0
     },
     "welcome-windows": {
-        "description": null,
+        "description": "A native Windows Universal App (tablet and phone) Template for the FeedHenry platform",
         "forks_count": 1,
         "html_url": "https://github.com/feedhenry-templates/welcome-windows",
         "name": "welcome-windows",
@@ -2563,7 +2563,7 @@
     },
     "wendy-jenkins-s2i-configuration": {
         "description": "The s2i configuration based on top of openshift/jenkins",
-        "forks_count": 0,
+        "forks_count": 1,
         "html_url": "https://github.com/feedhenry/wendy-jenkins-s2i-configuration",
         "name": "wendy-jenkins-s2i-configuration",
         "stargazers_count": 0
