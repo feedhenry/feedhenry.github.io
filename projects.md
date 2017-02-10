@@ -112,7 +112,7 @@ use it.
 
 #### Getting Started
 
-See the [Getting Started Guide](https://github.com/feedhenry-raincatcher/raincatcher-documentation/blob/master/Getting-Started.md).
+See the [Getting Started Guide](https://github.com/feedhenry-raincatcher/raincatcher-documentation/blob/master/getting-started.adoc).
 
 #### Community
 
