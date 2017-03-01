@@ -116,7 +116,7 @@
         "forks_count": 11,
         "html_url": "https://github.com/aerogear/aerogear-aerodoc-backend",
         "name": "aerogear-aerodoc-backend",
-        "stargazers_count": 3
+        "stargazers_count": 4
     },
     "aerogear-aerodoc-ios": {
         "description": null,
@@ -263,7 +263,7 @@
         "forks_count": 13,
         "html_url": "https://github.com/aerogear/aerogear-cordova-oauth2",
         "name": "aerogear-cordova-oauth2",
-        "stargazers_count": 11
+        "stargazers_count": 12
     },
     "aerogear-cordova-otp": {
         "description": null,
@@ -273,18 +273,18 @@
         "stargazers_count": 7
     },
     "aerogear-cordova-push": {
-        "description": null,
+        "description": "\u2728  Cordova plugin to support AeroGear UnifiedPush notifications \u2728",
         "forks_count": 49,
         "html_url": "https://github.com/aerogear/aerogear-cordova-push",
         "name": "aerogear-cordova-push",
-        "stargazers_count": 26
+        "stargazers_count": 28
     },
     "aerogear-crypto-ios": {
         "description": null,
         "forks_count": 12,
         "html_url": "https://github.com/aerogear/aerogear-crypto-ios",
         "name": "aerogear-crypto-ios",
-        "stargazers_count": 39
+        "stargazers_count": 41
     },
     "aerogear-crypto-ios-demo": {
         "description": null,
@@ -312,7 +312,7 @@
         "forks_count": 8,
         "html_url": "https://github.com/aerogear/aerogear-diffmatchpatch-ios",
         "name": "aerogear-diffmatchpatch-ios",
-        "stargazers_count": 3
+        "stargazers_count": 4
     },
     "aerogear-forge-scaffold": {
         "description": null,
@@ -347,7 +347,7 @@
         "forks_count": 20,
         "html_url": "https://github.com/aerogear/aerogear-ios-cookbook",
         "name": "aerogear-ios-cookbook",
-        "stargazers_count": 14
+        "stargazers_count": 15
     },
     "aerogear-ios-http": {
         "description": null,
@@ -378,15 +378,15 @@
         "stargazers_count": 3
     },
     "aerogear-ios-oauth2": {
-        "description": null,
-        "forks_count": 38,
+        "description": "\u2728 Swift client library for OAuth2 / OpenID Connect \u2728",
+        "forks_count": 40,
         "html_url": "https://github.com/aerogear/aerogear-ios-oauth2",
         "name": "aerogear-ios-oauth2",
-        "stargazers_count": 65
+        "stargazers_count": 68
     },
     "aerogear-ios-push": {
-        "description": "iOS Push Notification Registration for UnifiedPush Server",
-        "forks_count": 28,
+        "description": "\u2728 iOS Push Notification Registration for UnifiedPush Server \u2728",
+        "forks_count": 27,
         "html_url": "https://github.com/aerogear/aerogear-ios-push",
         "name": "aerogear-ios-push",
         "stargazers_count": 19
@@ -438,7 +438,7 @@
         "forks_count": 16,
         "html_url": "https://github.com/aerogear/aerogear-js-cookbook",
         "name": "aerogear-js-cookbook",
-        "stargazers_count": 9
+        "stargazers_count": 10
     },
     "aerogear-js-dist": {
         "description": null,
@@ -477,10 +477,10 @@
     },
     "aerogear-otp-ios": {
         "description": null,
-        "forks_count": 16,
+        "forks_count": 15,
         "html_url": "https://github.com/aerogear/aerogear-otp-ios",
         "name": "aerogear-otp-ios",
-        "stargazers_count": 37
+        "stargazers_count": 36
     },
     "aerogear-otp-ios-demo": {
         "description": null,
@@ -491,10 +491,10 @@
     },
     "aerogear-otp-java": {
         "description": null,
-        "forks_count": 45,
+        "forks_count": 47,
         "html_url": "https://github.com/aerogear/aerogear-otp-java",
         "name": "aerogear-otp-java",
-        "stargazers_count": 50
+        "stargazers_count": 55
     },
     "aerogear-otp-js": {
         "description": null,
@@ -589,10 +589,10 @@
     },
     "aerogear-simplepush-server": {
         "description": null,
-        "forks_count": 29,
+        "forks_count": 30,
         "html_url": "https://github.com/aerogear/aerogear-simplepush-server",
         "name": "aerogear-simplepush-server",
-        "stargazers_count": 34
+        "stargazers_count": 33
     },
     "aerogear-simplepush-unifiedpush-quickstart": {
         "description": null,
@@ -603,7 +603,7 @@
     },
     "aerogear-sync-server": {
         "description": null,
-        "forks_count": 14,
+        "forks_count": 15,
         "html_url": "https://github.com/aerogear/aerogear-sync-server",
         "name": "aerogear-sync-server",
         "stargazers_count": 16
@@ -652,10 +652,10 @@
     },
     "aerogear-unifiedpush-nodejs-client": {
         "description": null,
-        "forks_count": 16,
+        "forks_count": 17,
         "html_url": "https://github.com/aerogear/aerogear-unifiedpush-nodejs-client",
         "name": "aerogear-unifiedpush-nodejs-client",
-        "stargazers_count": 8
+        "stargazers_count": 9
     },
     "aerogear-unifiedpush-php-client": {
         "description": "AeroGear Push PHP Package",
@@ -666,10 +666,10 @@
     },
     "aerogear-unifiedpush-server": {
         "description": ":rocket: AeroGear UnifiedPush Server",
-        "forks_count": 142,
+        "forks_count": 153,
         "html_url": "https://github.com/aerogear/aerogear-unifiedpush-server",
         "name": "aerogear-unifiedpush-server",
-        "stargazers_count": 311
+        "stargazers_count": 313
     },
     "aerogear-unifiedpush-server-integration-tests": {
         "description": null,
@@ -687,10 +687,10 @@
     },
     "aerogear-webpush-server": {
         "description": null,
-        "forks_count": 9,
+        "forks_count": 10,
         "html_url": "https://github.com/aerogear/aerogear-webpush-server",
         "name": "aerogear-webpush-server",
-        "stargazers_count": 9
+        "stargazers_count": 10
     },
     "aerogear-windows-cookbook": {
         "description": null,
@@ -722,28 +722,28 @@
     },
     "aerogear.org": {
         "description": "New Jekyll based project site repo for AeroGear.",
-        "forks_count": 36,
+        "forks_count": 37,
         "html_url": "https://github.com/aerogear/aerogear.org",
         "name": "aerogear.org",
         "stargazers_count": 14
     },
     "appforms-datasources-internet": {
         "description": null,
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/appforms-datasources-internet",
         "name": "appforms-datasources-internet",
         "stargazers_count": 0
     },
     "appforms-datasources-mongodb": {
         "description": null,
-        "forks_count": 5,
+        "forks_count": 6,
         "html_url": "https://github.com/feedhenry-templates/appforms-datasources-mongodb",
         "name": "appforms-datasources-mongodb",
         "stargazers_count": 0
     },
     "appforms-datasources-static": {
         "description": "A Sample Service using hard coded data for a datasoruce",
-        "forks_count": 3,
+        "forks_count": 4,
         "html_url": "https://github.com/feedhenry-templates/appforms-datasources-static",
         "name": "appforms-datasources-static",
         "stargazers_count": 0
@@ -771,7 +771,7 @@
     },
     "barcode-reader-service": {
         "description": "Reads barcode information from searchupc.com",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/barcode-reader-service",
         "name": "barcode-reader-service",
         "stargazers_count": 0
@@ -799,14 +799,14 @@
     },
     "blank-ios-app": {
         "description": "Native iOS (Objective-C) blank sample ",
-        "forks_count": 5,
+        "forks_count": 6,
         "html_url": "https://github.com/feedhenry-templates/blank-ios-app",
         "name": "blank-ios-app",
         "stargazers_count": 0
     },
     "blank-ios-swift": {
         "description": "Native iOS (Swift) blank sample",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/blank-ios-swift",
         "name": "blank-ios-swift",
         "stargazers_count": 0
@@ -925,10 +925,10 @@
     },
     "digger-jenkins": {
         "description": "Digger on Jenkins: An OpenSource Build Farm for mobile app builds in the cloud ",
-        "forks_count": 6,
+        "forks_count": 7,
         "html_url": "https://github.com/aerogear/digger-jenkins",
         "name": "digger-jenkins",
-        "stargazers_count": 2
+        "stargazers_count": 3
     },
     "digkins-node": {
         "description": "Node.js integration lib",
@@ -951,23 +951,23 @@
         "name": "dockerfiles",
         "stargazers_count": 8
     },
-    "feedhenry.github.com": {
-        "description": "No longer maintained; see https://github.com/feedhenry/feedhenry.org.",
-        "forks_count": 9,
-        "html_url": "https://github.com/feedhenry/feedhenry.github.com",
-        "name": "feedhenry.github.com",
-        "stargazers_count": 1
+    "feedhenry-sdk-docs": {
+        "description": "WIP - Proposal for upstream RHMAP FH SDK Docs",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/feedhenry-sdk-docs",
+        "name": "feedhenry-sdk-docs",
+        "stargazers_count": 0
     },
-    "feedhenry.org": {
+    "feedhenry.github.io": {
         "description": "The FeedHenry website. See it at http://feedhenry.org.",
-        "forks_count": 1,
-        "html_url": "https://github.com/feedhenry/feedhenry.org",
-        "name": "feedhenry.org",
+        "forks_count": 2,
+        "html_url": "https://github.com/feedhenry/feedhenry.github.io",
+        "name": "feedhenry.github.io",
         "stargazers_count": 0
     },
     "fh-advanced-webapp-blank-app": {
         "description": "FeedHenry Advanced Web App",
-        "forks_count": 9,
+        "forks_count": 10,
         "html_url": "https://github.com/feedhenry/fh-advanced-webapp-blank-app",
         "name": "fh-advanced-webapp-blank-app",
         "stargazers_count": 0
@@ -981,7 +981,7 @@
     },
     "fh-android-sdk": {
         "description": "FeedHenry Android SDK",
-        "forks_count": 13,
+        "forks_count": 12,
         "html_url": "https://github.com/feedhenry/fh-android-sdk",
         "name": "fh-android-sdk",
         "stargazers_count": 4
@@ -1002,7 +1002,7 @@
     },
     "fh-api-mapper": {
         "description": "API Mapping Tool",
-        "forks_count": 12,
+        "forks_count": 13,
         "html_url": "https://github.com/feedhenry-templates/fh-api-mapper",
         "name": "fh-api-mapper",
         "stargazers_count": 3
@@ -1051,7 +1051,7 @@
     },
     "fh-component-metrics": {
         "description": "Node module for gathering metrics within feedhenry components",
-        "forks_count": 0,
+        "forks_count": 2,
         "html_url": "https://github.com/feedhenry/fh-component-metrics",
         "name": "fh-component-metrics",
         "stargazers_count": 0
@@ -1114,7 +1114,7 @@
     },
     "fh-connector-mongodb-cloud": {
         "description": null,
-        "forks_count": 2,
+        "forks_count": 3,
         "html_url": "https://github.com/feedhenry-templates/fh-connector-mongodb-cloud",
         "name": "fh-connector-mongodb-cloud",
         "stargazers_count": 0
@@ -1205,10 +1205,10 @@
     },
     "fh-cordova-plugin-ftputil": {
         "description": "FtpUtil plugin for Cordova 3+",
-        "forks_count": 1,
+        "forks_count": 3,
         "html_url": "https://github.com/feedhenry/fh-cordova-plugin-ftputil",
         "name": "fh-cordova-plugin-ftputil",
-        "stargazers_count": 0
+        "stargazers_count": 1
     },
     "fh-cordova-plugin-monkeytalk": {
         "description": "MokeyTalk plugin for Cordova 3+",
@@ -1226,7 +1226,7 @@
     },
     "fh-cordova-plugin-sms": {
         "description": null,
-        "forks_count": 0,
+        "forks_count": 1,
         "html_url": "https://github.com/feedhenry/fh-cordova-plugin-sms",
         "name": "fh-cordova-plugin-sms",
         "stargazers_count": 0
@@ -1236,7 +1236,7 @@
         "forks_count": 2,
         "html_url": "https://github.com/feedhenry/fh-cordova-plugin-stream",
         "name": "fh-cordova-plugin-stream",
-        "stargazers_count": 7
+        "stargazers_count": 8
     },
     "fh-cordova-plugin-webview": {
         "description": "Webview Plugin for Cordova 3+",
@@ -1261,21 +1261,21 @@
     },
     "fh-cup": {
         "description": "Wrapper scripts for `oc cluster up` to give you an OpenShift Origin cluster with RHMAP",
-        "forks_count": 1,
+        "forks_count": 2,
         "html_url": "https://github.com/feedhenry/fh-cup",
         "name": "fh-cup",
-        "stargazers_count": 1
+        "stargazers_count": 2
     },
     "fh-dataman": {
         "description": null,
-        "forks_count": 3,
+        "forks_count": 4,
         "html_url": "https://github.com/feedhenry/fh-dataman",
         "name": "fh-dataman",
         "stargazers_count": 0
     },
     "fh-db": {
         "description": null,
-        "forks_count": 7,
+        "forks_count": 8,
         "html_url": "https://github.com/feedhenry/fh-db",
         "name": "fh-db",
         "stargazers_count": 1
@@ -1289,10 +1289,10 @@
     },
     "fh-fhc": {
         "description": "FeedHenry CLI, the Command Line Interface to FeedHenry",
-        "forks_count": 70,
+        "forks_count": 74,
         "html_url": "https://github.com/feedhenry/fh-fhc",
         "name": "fh-fhc",
-        "stargazers_count": 26
+        "stargazers_count": 27
     },
     "fh-filesystem-api": {
         "description": "File system using cordova to save and read files.",
@@ -1303,9 +1303,16 @@
     },
     "fh-forms": {
         "description": "Cloud API for form submissions.",
-        "forks_count": 1,
+        "forks_count": 3,
         "html_url": "https://github.com/feedhenry/fh-forms",
         "name": "fh-forms",
+        "stargazers_count": 0
+    },
+    "fh-gridfs": {
+        "description": "A wrapper module for grid-fs to provide version control for files",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/fh-gridfs",
+        "name": "fh-gridfs",
         "stargazers_count": 0
     },
     "fh-health": {
@@ -1338,17 +1345,17 @@
     },
     "fh-ios-swift-sdk": {
         "description": "FeedHenry iOS (Swift) SDK",
-        "forks_count": 6,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry/fh-ios-swift-sdk",
         "name": "fh-ios-swift-sdk",
-        "stargazers_count": 2
+        "stargazers_count": 3
     },
     "fh-js-sdk": {
         "description": "FeedHenry Javascript SDK",
-        "forks_count": 31,
+        "forks_count": 32,
         "html_url": "https://github.com/feedhenry/fh-js-sdk",
         "name": "fh-js-sdk",
-        "stargazers_count": 3
+        "stargazers_count": 4
     },
     "fh-logger": {
         "description": "Enables a simple way of configuring and creating Bunyan loggers, configured with request serializers, including clustering information.",
@@ -1359,14 +1366,14 @@
     },
     "fh-mbaas": {
         "description": null,
-        "forks_count": 16,
+        "forks_count": 22,
         "html_url": "https://github.com/feedhenry/fh-mbaas",
         "name": "fh-mbaas",
         "stargazers_count": 1
     },
     "fh-mbaas-api": {
         "description": null,
-        "forks_count": 15,
+        "forks_count": 22,
         "html_url": "https://github.com/feedhenry/fh-mbaas-api",
         "name": "fh-mbaas-api",
         "stargazers_count": 1
@@ -1380,10 +1387,10 @@
     },
     "fh-mbaas-express": {
         "description": null,
-        "forks_count": 6,
+        "forks_count": 12,
         "html_url": "https://github.com/feedhenry/fh-mbaas-express",
         "name": "fh-mbaas-express",
-        "stargazers_count": 1
+        "stargazers_count": 2
     },
     "fh-mbaas-middleware": {
         "description": "Module for fh-mbaas as a service",
@@ -1401,7 +1408,7 @@
     },
     "fh-messaging": {
         "description": "FeedHenry Messaging Server",
-        "forks_count": 13,
+        "forks_count": 19,
         "html_url": "https://github.com/feedhenry/fh-messaging",
         "name": "fh-messaging",
         "stargazers_count": 0
@@ -1422,14 +1429,14 @@
     },
     "fh-mobile-spec-app": {
         "description": "The Mobile Spec App",
-        "forks_count": 6,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry-templates/fh-mobile-spec-app",
         "name": "fh-mobile-spec-app",
         "stargazers_count": 1
     },
     "fh-mobile-spec-cloud": {
         "description": "The cloud app for the mobile spec app",
-        "forks_count": 2,
+        "forks_count": 3,
         "html_url": "https://github.com/feedhenry-templates/fh-mobile-spec-cloud",
         "name": "fh-mobile-spec-cloud",
         "stargazers_count": 0
@@ -1450,21 +1457,21 @@
     },
     "fh-openshift": {
         "description": null,
-        "forks_count": 1,
+        "forks_count": 2,
         "html_url": "https://github.com/feedhenry/fh-openshift",
         "name": "fh-openshift",
         "stargazers_count": 4
     },
     "fh-openshift-templates": {
         "description": "fh-openshift-templates",
-        "forks_count": 3,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry/fh-openshift-templates",
         "name": "fh-openshift-templates",
         "stargazers_count": 0
     },
     "fh-reportingclient": {
         "description": null,
-        "forks_count": 1,
+        "forks_count": 2,
         "html_url": "https://github.com/feedhenry/fh-reportingclient",
         "name": "fh-reportingclient",
         "stargazers_count": 0
@@ -1481,7 +1488,7 @@
         "forks_count": 1,
         "html_url": "https://github.com/feedhenry/fh-sdk-api-test-app",
         "name": "fh-sdk-api-test-app",
-        "stargazers_count": 2
+        "stargazers_count": 3
     },
     "fh-security": {
         "description": null,
@@ -1499,7 +1506,7 @@
     },
     "fh-stats": {
         "description": "FeedHenry Stats Client/Server ",
-        "forks_count": 9,
+        "forks_count": 15,
         "html_url": "https://github.com/feedhenry/fh-stats",
         "name": "fh-stats",
         "stargazers_count": 0
@@ -1534,7 +1541,7 @@
     },
     "fh-template-apps": {
         "description": "Repo for configuration of project and app repo urls",
-        "forks_count": 53,
+        "forks_count": 58,
         "html_url": "https://github.com/feedhenry/fh-template-apps",
         "name": "fh-template-apps",
         "stargazers_count": 1
@@ -1646,42 +1653,42 @@
     },
     "helloworld-android-gradle": {
         "description": "Native Android Gradle Hello World Sample App ",
-        "forks_count": 9,
+        "forks_count": 10,
         "html_url": "https://github.com/feedhenry-templates/helloworld-android-gradle",
         "name": "helloworld-android-gradle",
         "stargazers_count": 0
     },
     "helloworld-app": {
         "description": "An HTML5 Cordova App which echos your name via the Cloud",
-        "forks_count": 12,
+        "forks_count": 13,
         "html_url": "https://github.com/feedhenry-templates/helloworld-app",
         "name": "helloworld-app",
         "stargazers_count": 2
     },
     "helloworld-cloud": {
         "description": null,
-        "forks_count": 11,
+        "forks_count": 12,
         "html_url": "https://github.com/feedhenry-templates/helloworld-cloud",
         "name": "helloworld-cloud",
         "stargazers_count": 0
     },
     "helloworld-cloud-cluster": {
         "description": "Cluster version of helloworld-mbaas",
-        "forks_count": 2,
+        "forks_count": 3,
         "html_url": "https://github.com/feedhenry-templates/helloworld-cloud-cluster",
         "name": "helloworld-cloud-cluster",
         "stargazers_count": 1
     },
     "helloworld-ios": {
         "description": "Native iOS (Objective-C) hello word sample",
-        "forks_count": 5,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry-templates/helloworld-ios",
         "name": "helloworld-ios",
         "stargazers_count": 0
     },
     "helloworld-ios-swift": {
         "description": "Native iOS (Swift) hello word sample ",
-        "forks_count": 5,
+        "forks_count": 6,
         "html_url": "https://github.com/feedhenry-templates/helloworld-ios-swift",
         "name": "helloworld-ios-swift",
         "stargazers_count": 0
@@ -1784,6 +1791,13 @@
         "name": "kitchensink-torquebox-mobile",
         "stargazers_count": 2
     },
+    "load-runner": {
+        "description": null,
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry/load-runner",
+        "name": "load-runner",
+        "stargazers_count": 0
+    },
     "mbaas-monitoring": {
         "description": "This project contains the resources to build Nagios DockerImage.",
         "forks_count": 4,
@@ -1828,7 +1842,7 @@
     },
     "negotiator": {
         "description": null,
-        "forks_count": 1,
+        "forks_count": 2,
         "html_url": "https://github.com/feedhenry/negotiator",
         "name": "negotiator",
         "stargazers_count": 1
@@ -1875,6 +1889,13 @@
         "name": "nodejs-adventure",
         "stargazers_count": 0
     },
+    "nodeschool": {
+        "description": "Node.js / Server side JavaScript development course curated by Red Hat Mobile",
+        "forks_count": 0,
+        "html_url": "https://github.com/feedhenry/nodeschool",
+        "name": "nodeschool",
+        "stargazers_count": 0
+    },
     "npm-license": {
         "description": "Generates a flattened list of npm project dependencies.",
         "forks_count": 0,
@@ -1898,7 +1919,7 @@
     },
     "oauth-ios-swift": {
         "description": "Native iOS (Swift) OAuth2 secured sample",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/oauth-ios-swift",
         "name": "oauth-ios-swift",
         "stargazers_count": 1
@@ -1940,7 +1961,7 @@
     },
     "push-network-proxies": {
         "description": "Simple mock/proxy servers for FCM and APNs",
-        "forks_count": 0,
+        "forks_count": 2,
         "html_url": "https://github.com/aerogear/push-network-proxies",
         "name": "push-network-proxies",
         "stargazers_count": 0
@@ -1961,17 +1982,17 @@
     },
     "pushstarter-ios-app": {
         "description": "Native iOS (Objective-C) push starter sample to receive push notifications.",
-        "forks_count": 7,
+        "forks_count": 8,
         "html_url": "https://github.com/feedhenry-templates/pushstarter-ios-app",
         "name": "pushstarter-ios-app",
         "stargazers_count": 0
     },
     "pushstarter-ios-swift": {
         "description": "Native iOS (Swift)  push starter sample to receive push notifications.",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/pushstarter-ios-swift",
         "name": "pushstarter-ios-swift",
-        "stargazers_count": 1
+        "stargazers_count": 2
     },
     "pushstarter-titanium-app": {
         "description": "Titanuim based Push Sample App",
@@ -2024,7 +2045,7 @@
     },
     "raincatcher-appform": {
         "description": "An AppForm module for FeedHenry WFM",
-        "forks_count": 8,
+        "forks_count": 9,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-appform",
         "name": "raincatcher-appform",
         "stargazers_count": 0
@@ -2051,43 +2072,57 @@
         "stargazers_count": 0
     },
     "raincatcher-demo-auth": {
-        "description": null,
-        "forks_count": 14,
+        "description": "Required authentication service for demo application",
+        "forks_count": 18,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-auth",
         "name": "raincatcher-demo-auth",
         "stargazers_count": 1
     },
     "raincatcher-demo-cloud": {
-        "description": null,
-        "forks_count": 18,
+        "description": "Example server side node.js application",
+        "forks_count": 22,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud",
         "name": "raincatcher-demo-cloud",
         "stargazers_count": 1
     },
+    "raincatcher-demo-load-testing": {
+        "description": "\ud83d\udcc8 Scripts for load-testing the demo cloud app with load-runner",
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-load-testing",
+        "name": "raincatcher-demo-load-testing",
+        "stargazers_count": 0
+    },
     "raincatcher-demo-mobile": {
-        "description": null,
-        "forks_count": 14,
+        "description": "Mobile application example",
+        "forks_count": 19,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-mobile",
         "name": "raincatcher-demo-mobile",
-        "stargazers_count": 3
+        "stargazers_count": 4
     },
     "raincatcher-demo-portal": {
-        "description": null,
-        "forks_count": 14,
+        "description": "Example portal backend application for raincacher",
+        "forks_count": 16,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-portal",
         "name": "raincatcher-demo-portal",
         "stargazers_count": 1
     },
-    "raincatcher-documentation": {
+    "raincatcher-demo-uart": {
         "description": null,
-        "forks_count": 3,
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-uart",
+        "name": "raincatcher-demo-uart",
+        "stargazers_count": 0
+    },
+    "raincatcher-documentation": {
+        "description": "Documentation for Raincatcher project",
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-documentation",
         "name": "raincatcher-documentation",
-        "stargazers_count": 1
+        "stargazers_count": 2
     },
     "raincatcher-file": {
         "description": null,
-        "forks_count": 5,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-file",
         "name": "raincatcher-file",
         "stargazers_count": 0
@@ -2101,21 +2136,21 @@
     },
     "raincatcher-map": {
         "description": "An Angular directive to represent workorders on a map",
-        "forks_count": 5,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-map",
         "name": "raincatcher-map",
         "stargazers_count": 0
     },
     "raincatcher-mediator": {
         "description": "An implementation of the mediator pattern for use with RainCatcher modules",
-        "forks_count": 6,
+        "forks_count": 9,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-mediator",
         "name": "raincatcher-mediator",
         "stargazers_count": 0
     },
     "raincatcher-message": {
         "description": null,
-        "forks_count": 4,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-message",
         "name": "raincatcher-message",
         "stargazers_count": 1
@@ -2129,7 +2164,7 @@
     },
     "raincatcher-result": {
         "description": null,
-        "forks_count": 4,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-result",
         "name": "raincatcher-result",
         "stargazers_count": 0
@@ -2143,21 +2178,21 @@
     },
     "raincatcher-schedule": {
         "description": "A module for scheduling work orders",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-schedule",
         "name": "raincatcher-schedule",
         "stargazers_count": 0
     },
     "raincatcher-signature": {
         "description": "A signature module for FeedHenry WFM",
-        "forks_count": 6,
+        "forks_count": 7,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-signature",
         "name": "raincatcher-signature",
         "stargazers_count": 0
     },
     "raincatcher-simple-store": {
         "description": null,
-        "forks_count": 2,
+        "forks_count": 6,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-simple-store",
         "name": "raincatcher-simple-store",
         "stargazers_count": 0
@@ -2185,7 +2220,7 @@
     },
     "raincatcher-template-build": {
         "description": null,
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-template-build",
         "name": "raincatcher-template-build",
         "stargazers_count": 0
@@ -2206,14 +2241,14 @@
     },
     "raincatcher-tutorial-module": {
         "description": "A simple Raincatcher module to demonstrate Raincatcher concepts.",
-        "forks_count": 3,
+        "forks_count": 4,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-tutorial-module",
         "name": "raincatcher-tutorial-module",
         "stargazers_count": 0
     },
     "raincatcher-user": {
         "description": "A module that manages users, groups and memberships",
-        "forks_count": 13,
+        "forks_count": 16,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-user",
         "name": "raincatcher-user",
         "stargazers_count": 0
@@ -2227,16 +2262,23 @@
     },
     "raincatcher-workflow": {
         "description": "A workflow model representation and its related services",
-        "forks_count": 6,
+        "forks_count": 8,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-workflow",
         "name": "raincatcher-workflow",
         "stargazers_count": 0
     },
     "raincatcher-workorder": {
         "description": "A workorder model representation and its related services",
-        "forks_count": 6,
+        "forks_count": 10,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-workorder",
         "name": "raincatcher-workorder",
+        "stargazers_count": 0
+    },
+    "raincatcher-workorder-angular": {
+        "description": "An Angular UI Implementation Of Workorders.",
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-workorder-angular",
+        "name": "raincatcher-workorder-angular",
         "stargazers_count": 0
     },
     "rhcjs": {
@@ -2252,6 +2294,20 @@
         "html_url": "https://github.com/feedhenry/rhm",
         "name": "rhm",
         "stargazers_count": 4
+    },
+    "rhmap-push-test-cloud-app": {
+        "description": "Cloud App project for testing $fh.push with various options and express routes ",
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry/rhmap-push-test-cloud-app",
+        "name": "rhmap-push-test-cloud-app",
+        "stargazers_count": 0
+    },
+    "rhmap-push-test-driver": {
+        "description": "Test-runner and Cloud App for Push testing ",
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry/rhmap-push-test-driver",
+        "name": "rhmap-push-test-driver",
+        "stargazers_count": 0
     },
     "salesforce-auth0-app": {
         "description": "Highlights use of FeedHenry with Salesforce and Auth0",
@@ -2290,14 +2346,14 @@
     },
     "saml-ios-app": {
         "description": "Native iOS (Objective-C) sample to work with SAML RHMAP Service connector.",
-        "forks_count": 2,
+        "forks_count": 3,
         "html_url": "https://github.com/feedhenry-templates/saml-ios-app",
         "name": "saml-ios-app",
         "stargazers_count": 0
     },
     "saml-ios-swift": {
         "description": "Native iOS (Swift) sample to work with SAML RHMAP Service connector.",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/saml-ios-swift",
         "name": "saml-ios-swift",
         "stargazers_count": 0
@@ -2339,7 +2395,7 @@
     },
     "sms-builder": {
         "description": "SMS Plugin for Phonegap",
-        "forks_count": 0,
+        "forks_count": 1,
         "html_url": "https://github.com/feedhenry/sms-builder",
         "name": "sms-builder",
         "stargazers_count": 0
@@ -2356,6 +2412,13 @@
         "forks_count": 0,
         "html_url": "https://github.com/feedhenry-templates/store-finder-cloud",
         "name": "store-finder-cloud",
+        "stargazers_count": 0
+    },
+    "sync-acceptance-testing": {
+        "description": "WIP: End to end testing of the sync client (in fh-js-sdk) and sync server (in fh-mbaas-api)",
+        "forks_count": 2,
+        "html_url": "https://github.com/feedhenry/sync-acceptance-testing",
+        "name": "sync-acceptance-testing",
         "stargazers_count": 0
     },
     "sync-android-app": {
@@ -2388,16 +2451,23 @@
     },
     "sync-ios-app": {
         "description": "Native iOS (Objective-C) sample for sync APIs",
-        "forks_count": 6,
+        "forks_count": 8,
         "html_url": "https://github.com/feedhenry-templates/sync-ios-app",
         "name": "sync-ios-app",
         "stargazers_count": 1
     },
     "sync-ios-swift": {
         "description": "Native iOS (Swift) sample for sync APIs",
-        "forks_count": 5,
+        "forks_count": 6,
         "html_url": "https://github.com/feedhenry-templates/sync-ios-swift",
         "name": "sync-ios-swift",
+        "stargazers_count": 0
+    },
+    "sync-tutorial-app": {
+        "description": "fh.sync Tutorial App for showing the sync process and collision handling",
+        "forks_count": 2,
+        "html_url": "https://github.com/feedhenry-templates/sync-tutorial-app",
+        "name": "sync-tutorial-app",
         "stargazers_count": 0
     },
     "sync-windows-app": {
@@ -2451,7 +2521,7 @@
     },
     "testing-cloud-app": {
         "description": "Testing cloud application covering various parts of MBaaS APIs",
-        "forks_count": 7,
+        "forks_count": 8,
         "html_url": "https://github.com/feedhenry/testing-cloud-app",
         "name": "testing-cloud-app",
         "stargazers_count": 1
@@ -2475,6 +2545,20 @@
         "forks_count": 0,
         "html_url": "https://github.com/aerogear/unifiedpush-forge-addon",
         "name": "unifiedpush-forge-addon",
+        "stargazers_count": 0
+    },
+    "ups-mock-data-loader": {
+        "description": "A tool that can be used to populate an UPS server with mock applications, variants and tokens",
+        "forks_count": 1,
+        "html_url": "https://github.com/aerogear/ups-mock-data-loader",
+        "name": "ups-mock-data-loader",
+        "stargazers_count": 0
+    },
+    "ups-test-driver": {
+        "description": "Test-runner written in nodeJS for loadtesting AeroGear UPS",
+        "forks_count": 0,
+        "html_url": "https://github.com/aerogear/ups-test-driver",
+        "name": "ups-test-driver",
         "stargazers_count": 0
     },
     "ups-test-suite": {
@@ -2507,7 +2591,7 @@
     },
     "welcome-android": {
         "description": "Native Android Welcome Sample App",
-        "forks_count": 5,
+        "forks_count": 6,
         "html_url": "https://github.com/feedhenry-templates/welcome-android",
         "name": "welcome-android",
         "stargazers_count": 0
@@ -2542,14 +2626,14 @@
     },
     "welcome-ios": {
         "description": "Native iOS (Objective-C) welcome showcase app",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/welcome-ios",
         "name": "welcome-ios",
         "stargazers_count": 0
     },
     "welcome-ios-swift": {
         "description": "Native iOS (Swift) welcome showcase app ",
-        "forks_count": 4,
+        "forks_count": 5,
         "html_url": "https://github.com/feedhenry-templates/welcome-ios-swift",
         "name": "welcome-ios-swift",
         "stargazers_count": 0
@@ -2563,9 +2647,16 @@
     },
     "wendy-jenkins-s2i-configuration": {
         "description": "The s2i configuration based on top of openshift/jenkins",
-        "forks_count": 1,
+        "forks_count": 3,
         "html_url": "https://github.com/feedhenry/wendy-jenkins-s2i-configuration",
         "name": "wendy-jenkins-s2i-configuration",
+        "stargazers_count": 0
+    },
+    "wildcard_proxy": {
+        "description": null,
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry/wildcard_proxy",
+        "name": "wildcard_proxy",
         "stargazers_count": 0
     }
 }
