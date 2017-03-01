@@ -16,6 +16,6 @@ There's still a lot more work to do—most importantly adding documentation on h
 an interested developer or user can get started with FeedHenry—but this lays the
 groundwork for quick, iterative improvements.
 
-If you spot any problems, do not hesitate to create an [issue](https://github.com/feedhenry/feedhenry.org/issues)
-in our GitHub repository or, if you're inclined, open a [pull request](https://github.com/feedhenry/feedhenry.org/pulls).
+If you spot any problems, do not hesitate to create an [issue](https://github.com/feedhenry/feedhenry.github.io/issues)
+in our GitHub repository or, if you're inclined, open a [pull request](https://github.com/feedhenry/feedhenry.github.io/pulls).
 Suggestions for improvement are always welcome!

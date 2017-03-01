@@ -1,4 +1,4 @@
-# feedhenry.org
+# feedhenry.github.io
 
 Website for the FeedHenry project. Built with Jekyll, Bootstrap 4,
 Font Awesome, and hosted with GitHub pages.
