@@ -273,7 +273,7 @@
         "stargazers_count": 7
     },
     "aerogear-cordova-push": {
-        "description": "\u2728  Cordova plugin to support AeroGear UnifiedPush notifications \u2728",
+        "description": "✨  Cordova plugin to support AeroGear UnifiedPush notifications ✨",
         "forks_count": 49,
         "html_url": "https://github.com/aerogear/aerogear-cordova-push",
         "name": "aerogear-cordova-push",
@@ -378,14 +378,14 @@
         "stargazers_count": 3
     },
     "aerogear-ios-oauth2": {
-        "description": "\u2728 Swift client library for OAuth2 / OpenID Connect \u2728",
+        "description": "✨ Swift client library for OAuth2 / OpenID Connect ✨",
         "forks_count": 40,
         "html_url": "https://github.com/aerogear/aerogear-ios-oauth2",
         "name": "aerogear-ios-oauth2",
         "stargazers_count": 68
     },
     "aerogear-ios-push": {
-        "description": "\u2728 iOS Push Notification Registration for UnifiedPush Server \u2728",
+        "description": "✨ iOS Push Notification Registration for UnifiedPush Server ✨",
         "forks_count": 27,
         "html_url": "https://github.com/aerogear/aerogear-ios-push",
         "name": "aerogear-ios-push",
@@ -2086,7 +2086,7 @@
         "stargazers_count": 1
     },
     "raincatcher-demo-load-testing": {
-        "description": "\ud83d\udcc8 Scripts for load-testing the demo cloud app with load-runner",
+        "description": ":chart_with_upwards_trend: Scripts for load-testing the demo cloud app with load-runner",
         "forks_count": 3,
         "html_url": "https://github.com/feedhenry-raincatcher/raincatcher-demo-load-testing",
         "name": "raincatcher-demo-load-testing",

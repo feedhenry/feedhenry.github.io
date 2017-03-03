@@ -32,5 +32,5 @@ if __name__ == '__main__':
     all_repos.update(get_repo_data('feedhenry-templates'))
     all_repos.update(get_repo_data('aerogear'))
 
-    with open('_data/feedhenry-repos.json', 'w') as f:
-        json.dump(all_repos, f, indent=4, sort_keys=True)
+    with open('_data/feedhenry-repos.json', 'w', encoding='utf8') as f:
+        json.dump(all_repos, f, indent=4, sort_keys=True, ensure_ascii=False)
