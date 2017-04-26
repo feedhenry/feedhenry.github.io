@@ -17,7 +17,7 @@ Native and hybrid SDKs for mobile app development.
 <div class="project-text" markdown="1">
 
 FeedHenry supports a wide range of mobile development technologies. We provide
-support for native iOS, Android, Windows, Xamarin, Appcelerator, Cordova, and
+support for native iOS, Android, Windows, Xamarin, Cordova, and
 other HTML5 app frameworks.
 
 {% include repos.html repos="fh-ios-sdk,fh-ios-swift-sdk,fh-android-sdk,fh-dotnet-sdk,fh-js-sdk" %}
@@ -36,7 +36,7 @@ Starting points for building your applications with FeedHenry.
 
 <div class="project-text" markdown="1">
 
-We've developed app templates for iOS, Android, Xamarin, Appcelerator, Cordova;
+We've developed app templates for iOS, Android, Xamarin, Cordova;
 OAuth2 and SAML examples, push notification and data synchronization examples,
 and many more. We've highlighted a few of the popular ones below.
 
