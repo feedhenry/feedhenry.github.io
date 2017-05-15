@@ -18,7 +18,7 @@ Bring up your cluster for the first time by running:
 
 If successful you should see output like the following:
 
-![terminal-output](https://s11.postimg.org/pzt4nepw3/oc-cluster-up.png)
+![clusterup-terminal-output][image-clusterup]
 
 To bring up your cluster subsequently pass in the `--use-existing-config` flag to your `oc cluster up` command:
 
@@ -36,9 +36,9 @@ If you encounter any errors the error messages are generally helpful enough to d
 
 Once you have successfully brought your cluster up you should be able to access the OpenShift console through the url specified at the end of your `oc cluster up` log. 
 
-![openshift-console](https://s11.postimg.org/4fxzt7uz7/openshift-opening-screen.png)  
+![openshift-mainconsole][image-mainconsole]  
 
-![openshift-console](https://s11.postimg.org/txgectcpf/openshift-dashboard.png)
+![openshift-consoledashboard][image-dashboard]
 
 
 ## Deploy your app to OpenShift ##
@@ -55,9 +55,9 @@ To access your app, you will need to create an external-facing route to it. Do t
 
 You can also set up a route through the openshift console:
 
-![openshift-console](https://s11.postimg.org/9fvg160lv/select-routes.png)  
+![openshift-selectroute][image-selectreoutes]  
 
-![openshift-console](https://s11.postimg.org/kzvofgk9f/create-route.png)  
+![openshift-createroute][image-createroute]  
 
 Congratulations! You have now deployed your app on OpenShift and should be able to access your deployed app through the route you specified.
 
@@ -83,3 +83,10 @@ For further reading, check out:
 * [Documentation for OpenShift cluster management](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md)
 * [The OpenShift Developer guide](https://docs.openshift.com/enterprise/3.1/dev_guide/index.html)
 
+<images>
+
+[image-clusterup]: /assets/images/hero-openshift/oc-cluster-up.png  
+[image-mainconsole]: /assets/images/hero-openshift/openshift-opening-screen.png  
+[image-dashboard]: /assets/images/hero-openshift/openshift-dashboard.png  
+[image-selectreoutes]: /assets/images/hero-openshift/select-routes.png  
+[image-createroute]: /assets/images/hero-openshift/create-route.png  
