@@ -9,7 +9,7 @@ Install docker. A list of the supported platforms and instructions for installin
 
 Before you continue, ensure you can run the docker hello-world example by running `docker run hello-world` in a terminal. You should see an output like the below:
 
-![hello-world-output](https://s24.postimg.org/vumoh4zw5/Selection_103.png)
+![hello-world-output][image-helloworld]
 
 
 ## Containerising your app ##
@@ -54,7 +54,7 @@ If you have any errors regaring the location of your DockerFile, you may need to
 
 You should see an output like the following:
 
-![build-output](https://s24.postimg.org/eimbvp6et/Selection_104.png)
+![build-output][image-build]
 
 
 ### Run your container app ###
@@ -65,7 +65,7 @@ Once your docker container is built run it with:
 
 Sample output should resemble:
 
-![running-your-container](https://s24.postimg.org/z45p1cddh/Selection_105.png)
+![running-your-container][image-run]
 
 ** the above presumes 8000 is the port number your nodejs app runs on, and that you wish to map it to port 49160 on your local machine.
 
@@ -78,7 +78,7 @@ To return a list of all running docker containers (and retrieve the id of your c
 
 * `docker ps`
 
-![docker-ps-output](https://s11.postimg.org/ff7rc7w7n/Selection_110.png)
+![docker-ps-output][image-dockerps]
 
 ### Checking your container logs ###
 
@@ -86,7 +86,7 @@ To check the logs from your container run:
 
 * `docker logs -f <container-id>`
 
-![docker-logs-output](https://s24.postimg.org/erjwlmj79/Selection_108.png)
+![docker-logs-output][image-logs]
 
 
 ### Getting inside your container ###
@@ -107,15 +107,15 @@ To delete a docker container image once stopped run:
 * `docker rm <container-id>`
 
 
-## (Optional) (Docker Hub)[https://hub.docker.com/] ##
+## (Optional) Docker Hub ##
 
-To host your container images on Docker Hub, ensure you have a dockerhub account, then:
+To host your container images on [Docker Hub](https://hub.docker.com/), ensure you have an account, then:
 
 * `docker login`
 * `docker tag <container-id> <dockerhub-username>/<repo-name>`
 * `docker push <dockerhub-username>/<repo-name>`
 
-![dockerhub-login](https://s24.postimg.org/ljaboh86t/Selection_109.png)
+![dockerhub-login][image-dockerhub]
 
 
 ## Troubleshooting tips ##
@@ -125,3 +125,12 @@ If you encounter any errors the docker error messages are generally helpful enou
 * the need to pass in an insecure registry flag when running the docker service daemon
 * the need to disable SELinux when running the docker service daemon
 * the need to change the permissions of the UNIX socket the docker daemon is listening to
+
+
+
+[image-build]: /assets/images/hero-docker/hero-docker-build.png "docker build output"   
+[image-run]: /assets/images/hero-docker/hero-docker-run.png "docker run output"  
+[image-dockerps]: /assets/images/hero-docker/hero-docker-ps.png "docker ps output"  
+[image-logs]: /assets/images/hero-docker/hero-docker-logs.png "docker logs output"  
+[image-helloworld]: /assets/images/hero-docker/hero-docker-hw.png "docker helloworld output"   
+[image-dockerhub]: /assets/images/hero-docker/hero-docker-hub.png "docker hub terminal login"  
