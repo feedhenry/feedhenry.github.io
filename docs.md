@@ -19,7 +19,7 @@ Guides and documentation for using and integrating FeedHenry technologies within
 As the upstream arm of Red Hat, FeedHenry offers and maintains a range of open technologies. 
 Some guides and documentation for these technologies are below: 
 
-{% include repos.html repos="fh-ios-sdk,fh-ios-swift-sdk,fh-android-sdk,fh-dotnet-sdk,fh-js-sdk" %}
+{% include docs.html docs="hero-docker,hero-openshift,hero-ups,hero-keycloak" %}
 
 <div class="bd-callout bd-callout-warning">
   <h4>Note!</h4>

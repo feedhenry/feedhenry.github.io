@@ -1,3 +1,9 @@
+---
+layout: page
+title: OpenShift in 30 mins
+permalink: /hero-openshift/
+---
+
 # Openshift in 30 mins with a Node.JS application #
 
 These steps presume you already have Docker installed. If you don't, look at this quickstart docker guide, or install Docker from [here](insert-link). Before you proceed any further confirm you can run docker process commands by trying `docker ps`
