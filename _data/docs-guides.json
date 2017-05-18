@@ -2,21 +2,21 @@
     "hero-docker": {
         "name": "Docker in 30 mins",
         "description": "Getting up and running with Docker",
-        "link": "/hero-docker/"
+        "html_url": "/hero-docker/"
     },
     "hero-openshift": {
         "name": "OpenShift in 30 mins",
         "description": "Getting up and running with OpenShift",
-        "link": "/hero-openshift/"
+        "html_url": "/hero-openshift/"
     },
     "hero-ups": {
         "name": "UPS on OpenShift in 30 mins",
         "description": "Deploying UPS on OpenShift",
-        "link": "/hero-ups/"
+        "html_url": "/hero-ups/"
     },
     "hero-keycloak": {
         "name": "KeyCloak on OpenShift in 30 mins",
         "description": "Deploying KeyCloak on OpenShift",
-        "link": "/hero-keycloak/"
+        "html_url": "/hero-keycloak/"
     }
 }
