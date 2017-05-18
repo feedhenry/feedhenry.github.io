@@ -2,7 +2,7 @@
 layout: projects
 title: Documentation
 permalink: /docs/
----
+--- 
 
 Here are a series of guides and documentation for FeedHenry, Red Hat, and related technologies. 
 
