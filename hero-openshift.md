@@ -4,19 +4,21 @@ title: OpenShift in 30 mins
 permalink: /hero-openshift/
 ---
 
-# Openshift in 30 mins with a Node.JS application #
+# Openshift in 30 mins with a Node.JS application  
+  
+## Prerequisites  
 
 These steps presume you already have Docker installed. If you don't, look at this quickstart docker guide, or install Docker from [here](insert-link). Before you proceed any further confirm you can run docker process commands by trying `docker ps`
 
 
-## Installing Openshift ##
-
-### Installing the oc cli tool ###
+## Installing Openshift  
+  
+### Installing the oc cli tool  
 
 Download the Linux [oc binary](https://github.com/openshift/origin/releases) and place it in your path.
 
 
-## Bring your cluster up ##
+## Bring your cluster up  
 
 Bring up your cluster for the first time by running:
 
@@ -31,14 +33,14 @@ To bring up your cluster subsequently pass in the `--use-existing-config` flag t
 * `oc cluster up --public-hostname=127.0.0.1 --host-data-dir=$HOME/os/data-dir --host-config-dir=$HOME/os/config-dir --use-existing-config`
 
 
-### Troubleshooting ###
+### Troubleshooting  
 
 If you encounter any errors the error messages are generally helpful enough to diagnose and resolve the issue. Some issues that were encountered included:
 
 * the docker service daemon/ service was not running or needed to be restarted
 
 
-### OpenShift console ###
+### OpenShift console  
 
 Once you have successfully brought your cluster up you should be able to access the OpenShift console through the url specified at the end of your `oc cluster up` log. 
 
@@ -47,7 +49,7 @@ Once you have successfully brought your cluster up you should be able to access 
 ![openshift-consoledashboard][image-dashboard]
 
 
-## Deploy your app to OpenShift ##
+## Deploy your app to OpenShift  
 
 Deploy your app by executing:
 
@@ -68,12 +70,12 @@ You can also set up a route through the openshift console:
 Congratulations! You have now deployed your app on OpenShift and should be able to access your deployed app through the route you specified.
 
 
-## Bringing down your cluster ##
+## Bringing down your cluster  
 
 To bring down your cluster `oc cluster down` will take down your cluster.
 
 
-## Summary & further reading ##
+## Summary & further reading  
 
 Through the above steps you should have:
 
@@ -89,7 +91,6 @@ For further reading, check out:
 * [Documentation for OpenShift cluster management](https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md)
 * [The OpenShift Developer guide](https://docs.openshift.com/enterprise/3.1/dev_guide/index.html)
 
-<images>
 
 [image-clusterup]: /assets/images/hero-openshift/oc-cluster-up.png  
 [image-mainconsole]: /assets/images/hero-openshift/openshift-opening-screen.png  

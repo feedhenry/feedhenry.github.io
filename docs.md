@@ -43,7 +43,7 @@ Guides and documentation for using and integrating Red Hat technologies within y
 Red Hat, the parent company of FeedHenry offers a range of solutions built on open source technologies.  
 Guides and documentation for integrating these technologies into your solutions will appear here. 
 
-{% include docs.html docs="hero-openshift,hero-ups,hero-keycloak" %}
+{% include docs.html docs="hero-openshift,hero-ups" %}
 
 </div>
 
