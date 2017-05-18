@@ -1,4 +1,10 @@
-# Unified Push Server (UPS) on OpenShift #
+---
+layout: page
+title: Unified Push Server (UPS) on OpenShift
+permalink: /hero-ups/
+---
+
+# Unified Push Server (UPS) on OpenShift
 
 ## Prerequisites ## 
 

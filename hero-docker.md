@@ -1,3 +1,9 @@
+---
+layout: page
+title: Docker in 30 mins
+permalink: /hero-docker/
+---
+
 # Docker in 30 mins with a Node.JS application #
 
 To start using docker for your application(s), you will need Docker installed on your machine and optionally a Docker Hub account to host your docker image.
@@ -48,7 +54,7 @@ Run the following from the root of your app directory:
 
 * `docker build -t <your-username>/<your-app-name> .`
 
-If you have any errors regaring the location of your DockerFile, you may need to specify the path to your DockerFile:
+If you have any errors regarding the location of your DockerFile, you may need to specify the path to your DockerFile:
 
 * `docker build -t <your-username>/<your-app-name> -f <location-and-path-of-dockerfile> .`
 
