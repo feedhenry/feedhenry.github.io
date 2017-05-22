@@ -42,9 +42,20 @@ Confirm that both MySQL instances have come online by checking the OpenShift con
 
 ## Deploy AeroGear UPS ##
 
-With both required MySQL instances installed and running, UPS can now be deployed by running the following in your terminal:
+With both required MySQL instances installed and running, UPS can now be deployed by running the following command in your terminal:
 
-* `oc new-app aerogear/unifiedpush-wildfly UNIFIEDPUSH_PORT_3306_TCP_ADDR=unifiedpush UNIFIEDPUSH_PORT_3306_TCP_PORT=3306 UNIFIEDPUSH_ENV_MYSQL_DATABASE=unifiedpush  KEYCLOAK_PORT_3306_TCP_ADDR=keycloak KEYCLOAK_PORT_3306_TCP_PORT=3306 KEYCLOAK_ENV_MYSQL_DATABASE=keycloak UNIFIEDPUSH_ENV_MYSQL_USER=unifiedpush  UNIFIEDPUSH_ENV_MYSQL_PASSWORD=unifiedpush KEYCLOAK_ENV_MYSQL_USER=unifiedpush KEYCLOAK_ENV_MYSQL_PASSWORD=unifiedpush --name=unifiedpush-wildfly`   
+    oc new-app aerogear/unifiedpush-wildfly \ 
+    UNIFIEDPUSH_PORT_3306_TCP_ADDR=unifiedpush \ 
+    UNIFIEDPUSH_PORT_3306_TCP_PORT=3306 \ 
+    UNIFIEDPUSH_ENV_MYSQL_DATABASE=unifiedpush \ 
+    KEYCLOAK_PORT_3306_TCP_ADDR=keycloak \ 
+    KEYCLOAK_PORT_3306_TCP_PORT=3306 \ 
+    KEYCLOAK_ENV_MYSQL_DATABASE=keycloak \ 
+    UNIFIEDPUSH_ENV_MYSQL_USER=unifiedpush \ 
+    UNIFIEDPUSH_ENV_MYSQL_PASSWORD=unifiedpush \ 
+    KEYCLOAK_ENV_MYSQL_USER=unifiedpush \ 
+    KEYCLOAK_ENV_MYSQL_PASSWORD=unifiedpush \ 
+    --name=unifiedpush-wildfly  
 
 ![deploy-unifiedpush-wildfly][deploy-unifiedpush-wildfly]  
 ![pod-unifiedpush-wildfly][pod-unifiedpush-wildfly]  

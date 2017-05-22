@@ -35,7 +35,10 @@ To bring up your cluster subsequently pass in the `--use-existing-config` flag t
 
 ### Troubleshooting  
 
-If you encounter any errors the error messages are generally helpful enough to diagnose and resolve the issue. Some issues that were encountered included:
+If you encounter any errors the error messages are generally helpful enough to diagnose and resolve the issue. 
+Before delving too deeply, be sure to double-check your version of Docker, and that it is compatible with the version of OpenShift you are using.
+
+Some issues that were encountered included:
 
 * the docker service daemon/ service was not running or needed to be restarted
 

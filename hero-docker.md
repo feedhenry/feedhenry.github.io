@@ -6,7 +6,7 @@ permalink: /hero-docker/
 
 # Docker in 30 mins with a Node.JS application #
 
-To start using docker for your application(s), you will need Docker installed on your machine and optionally a Docker Hub account to host your docker image.
+To start using Docker for your application(s), you will need Docker installed on your machine, a node.js you wish to containerise with Docker, and optionally a Docker Hub account to host your docker image.
 
 
 ## Prerequisites ##
@@ -24,39 +24,43 @@ Before you continue, ensure you can run the docker hello-world example by runnin
 
 To containerise your app you will need a Dockerfile for your app. Create a file named 'Dockerfile' in the root of your app directory with the following content:
 
-> FROM node:6.10.2-alpine
-> 
-> \# Create app directory  
-> RUN mkdir -p /usr/src/app  
-> WORKDIR /usr/src/app  
-> 
-> \# Install app dependencies  
-> COPY package.json /usr/src/app/  
-> RUN npm install  
-> 
-> \# Bundle app source  
-> COPY . /usr/src/app  
-> 
-> EXPOSE 8000  
-> 
-> CMD [ "npm", "start" ] # make sure start script in package.json
+    FROM node:6.10.2-alpine
+    
+    \# Create app directory  
+    RUN mkdir -p /usr/src/app  
+    WORKDIR /usr/src/app  
+    
+    \# Install app dependencies  
+    COPY package.json /usr/src/app/  
+    RUN npm install  
+    
+    \# Bundle app source  
+    COPY . /usr/src/app  
+    
+    EXPOSE 8000  
+    
+    CMD [ "npm", "start" ] # make sure start script in package.json
 
 ** the above presumes your app listens on port 8000, and that you have a start script in your package.json:
 
-> "scripts": {  
-> &nbsp;&nbsp;&nbsp;&nbsp;"start": "node app.js"  
->  },
+    "scripts": {  
+    &nbsp;&nbsp;&nbsp;&nbsp;"start": "node app.js"  
+    },
 
 
 ## Build your app docker container ##
 
 Run the following from the root of your app directory:
 
+* `docker build -t <your-app-name> .`
+
+Or if you wish to tag the image with your username:
+
 * `docker build -t <your-username>/<your-app-name> .`
 
 If you have any errors regarding the location of your DockerFile, you may need to specify the path to your DockerFile:
 
-* `docker build -t <your-username>/<your-app-name> -f <location-and-path-of-dockerfile> .`
+* `docker build -t <your-app-name> -f <location-and-path-of-dockerfile> .`
 
 You should see an output like the following:
 
