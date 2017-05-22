@@ -58,11 +58,19 @@ Deploy your app by executing:
 
 * `oc new-app <dockerhub-username>/<dockerhub-image-name>`
 
+If you don't have an app, you can use the nodejs-hello example from google to test a deployment:
+
+* * `oc new-app google/nodejs-hello`
+
 In the OpenShift console you should see your app spinning up in its pod. 
 
 To access your app, you will need to create an external-facing route to it. Do this through the cli with:
 
 * `oc expose service/<name> --hostname=<www.example.com>`
+
+Or if you are using the nodejs-hello example from google:
+
+* `oc expose service/nodejs-hello --hostname=nodejs-hello.127.0.0.1.nip.io:8080`
 
 You can also set up a route through the openshift console:
 
@@ -84,10 +92,14 @@ Through the above steps you should have:
 
 * Installed OpenShift locally
 * Installed the OC CLI to interact with your OpenShift cluster
-* Brought up your local cluster and deployed a Node.JS app
+* Brought up your local cluster and deployed a Node.JS app from a Docker container image
 * Created a route/ url to access your app
 
-For further reading, check out:
+As seen above, Containerised apps can be deployed quite easily to an OpenShift cluster. [Docker Hub](https://hub.docker.com/) can facilitate this process by providing a place to host your container images, and you may wish to create an account there (some steps to do so can be found [here](/hero-docker/)).
+
+OpenShift also supports building and deploying your directly from source code, which may be covered in a subsequent document. 
+
+For further reading, check out the below links & also feel free to reach out to feedhenry-dev at redhat.com or the #feedhenry IRC channel if you need help.
 
 * [A summary of the oc cluster up options](https://www.mankier.com/1/oc-cluster-up)
 * [A summary/ set of man pages for the various oc client command options](https://www.mankier.com/package/origin-clients)
