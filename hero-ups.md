@@ -4,7 +4,7 @@ title: Unified Push Server (UPS) on OpenShift
 permalink: /hero-ups/
 ---
 
-# Unified Push Server (UPS) on OpenShift
+# Unified Push Server (UPS) on OpenShift  
 
 ## Prerequisites ## 
 
@@ -15,13 +15,13 @@ You should have a locally installed version of OpenShift, or access to an OpenSh
 Bring up your cluster with:  
 `oc cluster up --public-hostname=127.0.0.1 --host-data-dir=$HOME/os/data-dir --host-config-dir=$HOME/os/config-dir`  
 
-![oc-cluster-up][oc-cluster-up]
+![oc-cluster-up][oc-cluster-up]  
 
 ## Log into your cluster ##
 
 Log into your cluster via `oc login`
 
-![oc-login][oc-login]
+![oc-login][oc-login]  
 
 ## Deploy MySQL containers ##
 
@@ -83,13 +83,29 @@ The OpenShift console will confirm that this also:
 
 ** if you require any other routes to be exposed to UPS for your apps, you can simply add them in the above manner. 
 
+## Fixing Keycloak Linking
+UPS uses an embedded Keycloak server to handle its authentication. Right now there is an issue when the UPS pod starts up it can’t route to Keycloak using the public route. To work around this, do the following after the pod has loaded fully
+
+* navigate to the unifiedpush-wildfly pod in the OpenShift web console
+
+![applications-pods][applications-pods]  
+
+* Run `wget http://localhost:8080/ag-push/index.html` in the Terminal for the unifiedpush-wildfly pod
+
+![pod-unifiedpush-wildfly-terminal][pod-unifiedpush-wildfly-terminal]  
+
+
 ## Configuring UPS ##
 
 UPS can now be configured via the browser and the route you have created:  
 
 ![browser-ups][browser-ups]  
 
-This tutorial does not cover how to configure UPS to send push notifications to your mobile app. For guidance on how to do so, the AeroGear HelloPush tutorial may be found [here](https://github.com/aerogear/aerogear-android-cookbook/tree/master/HelloPush) which covers cover how to configure push notifications to an app with UPS.
+* Click on the 'Administration Console' from the above WildFly landing page to bring you to the UPS front screen
+
+![ups-front-screen][ups-front-screen]  
+
+** This tutorial does not cover how to configure UPS to send push notifications to your mobile app. For guidance on how to do so, the AeroGear HelloPush tutorial may be found [here](https://github.com/aerogear/aerogear-android-cookbook/tree/master/HelloPush) which covers cover how to configure push notifications to an app with UPS.
 
 
 [oc-cluster-up]: /assets/images/hero-ups/oc-cluster-up.png  
@@ -105,4 +121,7 @@ This tutorial does not cover how to configure UPS to send push notifications to 
 [terminal-route-2]: /assets/images/hero-ups/terminal-route-2.png 
 [pod-unifiedpush-wildfly-routes-1]: /assets/images/hero-ups/pod-unifiedpush-wildfly-routes-1.png  
 [pod-unifiedpush-wildfly-routes-2]: /assets/images/hero-ups/pod-unifiedpush-wildfly-routes-2.png  
+[applications-pods]: /assets/images/hero-ups/applications-pods.png  
+[pod-unifiedpush-wildfly-terminal]: /assets/images/hero-ups/pod-unifiedpush-wildfly-terminal.png
+[ups-front-screen]: /assets/images/hero-ups/ups-front-screen.png 
 [browser-ups]: /assets/images/hero-ups/browser-ups.png  
