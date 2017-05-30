@@ -163,38 +163,6 @@ Find the complete list of modules [here](https://github.com/feedhenry-raincatche
 
 
 
-<div class="project-title" markdown="1">
-
-## Core
-
-The core components that make up FeedHenry.
-
-</div>
-
-<div class="project-text" markdown="1">
-
-#### Coming soon
-{: .tag .tag-info}
-
-</div>
-
-
-
-<div class="project-title" markdown="1">
-
-## MBaaS
-
-Provides the Node.js runtime environment for high-performance server-side apps.
-
-</div>
-
-<div class="project-text" markdown="1">
-
-#### Coming soon
-{: .tag .tag-info}
-
-</div>
-
 
 
 <div class="project-title" markdown="1">
