@@ -163,6 +163,60 @@ Find the complete list of modules [here](https://github.com/feedhenry-raincatche
 
 
 
+<div class="project-title" markdown="1">
+
+## Data Synchronization
+
+A set of Mobile SDKs & Node.js module for client/server data synchronization with offline support.
+
+</div>
+
+<div class="project-text" markdown="1">
+
+#### Overview
+
+The FeedHenry Data Synchronization framework includes the following features:
+
+* Allows mobile apps to use and update data offline (local cache)
+* Provides a mechanism to manage bi-directional data synchronization from multiple Client Apps using the Cloud App and into back-end data stores
+* Allows data updates (that is, deltas) to be distributed from the Cloud App to connected clients
+* Enables data collision management from multiple updates in the cloud
+* Allows Apps to seamlessly continue working when the network connection is lost, and allows them to recover when the network connection is restored.
+
+#### Community
+
+* [feedhenry-dev mailing list](http://www.redhat.com/mailman/listinfo/feedhenry-dev)
+* [IRC: #feedhenry on Freenode](irc://irc.freenode.net/feedhenry)
+
+
+#### Node.js Module
+
+{% include repos.html repos="fh-sync" %}
+
+#### Client SDK's
+
+##### Browser (javascript)
+
+{% include repos.html repos="fh-sync-js" %}
+
+##### Android
+
+#### Coming Soon
+{: .tag .tag-info}
+
+##### iOS
+
+#### Coming Soon
+{: .tag .tag-info}
+
+##### .NET
+
+#### Coming Soon
+{: .tag .tag-info}
+
+
+</div>
+
 
 
 <div class="project-title" markdown="1">

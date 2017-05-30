@@ -1392,6 +1392,20 @@
         "name": "fh-mbaas-express",
         "stargazers_count": 2
     },
+    "fh-sync": {
+        "description": "Node.js implementation of the FeedHenry Data Synchronisation Server. To be used in conjunction with the FeedHenry Data Synchronisation Client.",
+        "forks_count": 3,
+        "html_url": "https://github.com/feedhenry/fh-sync",
+        "name": "fh-sync",
+        "stargazers_count": 1
+    },
+    "fh-sync-js": {
+        "description": "Javascript implementation of the Feedhenry Data Synchronisation Client for browsers. To be used in conjunction with the FeedHenry Data Synchronisation Server.",
+        "forks_count": 1,
+        "html_url": "https://github.com/feedhenry/fh-sync-js",
+        "name": "fh-sync",
+        "stargazers_count": 1
+    },
     "fh-mbaas-middleware": {
         "description": "Module for fh-mbaas as a service",
         "forks_count": 0,
