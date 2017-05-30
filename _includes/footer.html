@@ -40,7 +40,7 @@
    */
   tocbot.init({
     tocSelector: '.projects-toc',
-    contentSelector: '.projects-page',
+    contentSelector: '.{{ page.title | downcase  }}-page',
     listClass: 'toc-list list-unstyled',
     headingSelector: 'h2',
     positionFixedSelector: '.toc-list',

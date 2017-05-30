@@ -1,0 +1,11 @@
+{% assign doc_split = include.docs | split: "," %}
+
+<div class="list-group repos">
+  {% for doc_name in doc_split %}
+  {% assign doc = site.data.docs-guides[doc_name] %}
+    <a href="{{ doc.html_url }}" class="list-group-item list-group-item-action">
+      <h6 class="list-group-item-heading"><i class="fa fa-file-text" aria-hidden="true"></i> {{ doc.name }}</h6>
+      <p class="list-group-item-text">{{ doc.description }}</p>
+    </a>
+  {% endfor %}
+</div>
