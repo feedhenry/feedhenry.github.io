@@ -219,26 +219,21 @@ The FeedHenry Data Synchronization framework includes the following features:
 ## Build Farm
 
 A suite of tools and modules that can be used to automate the process of building mobile applications on Kubernetes/OpenShift using Jenkins.
+</div>
+<div class="project-text" markdown="1">
 
-## Modules
+### Modules
 
-### [Jenkins Templates](https://github.com/aerogear/digger-jenkins)
+{% include repos.html repos="digger-jenkins,digger-java" %}
 
-Preconfigured Jenkins instance with all the required plugins installed that will be used to build mobile applications. Work in progress.
 
-### Installer (Coming Soon)
+
+### Installer 
 
 Ansible scripts that can be used to install/provision the required tools, SDKs and services. Work in progress.
 
-### [Client Libaries](https://github.com/aerogear/digger-java)
-
-Client libaries are provided to manage the build tasks. Initial implementation will include Java and NodeJS. Work in progress.
-
-</div>
-
-<div class="project-text" markdown="1">
-
-#### Coming soon
+Coming Soon
 {: .tag .tag-info}
+
 
 </div>
