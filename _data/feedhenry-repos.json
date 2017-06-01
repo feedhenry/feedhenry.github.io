@@ -1365,8 +1365,8 @@
         "stargazers_count": 0
     },
     "fh-mbaas": {
-        "description": null,
-        "forks_count": 22,
+        "description": "FeedHenry MBaaS Management Service",
+        "forks_count": 28,
         "html_url": "https://github.com/feedhenry/fh-mbaas",
         "name": "fh-mbaas",
         "stargazers_count": 1
@@ -1422,10 +1422,10 @@
     },
     "fh-messaging": {
         "description": "FeedHenry Messaging Server",
-        "forks_count": 19,
+        "forks_count": 20,
         "html_url": "https://github.com/feedhenry/fh-messaging",
         "name": "fh-messaging",
-        "stargazers_count": 0
+        "stargazers_count": 1
     },
     "fh-messaging-client": {
         "description": "client for interfacing with fh-messaging both in the core and the mbaas",
@@ -1477,11 +1477,11 @@
         "stargazers_count": 4
     },
     "fh-openshift-templates": {
-        "description": "fh-openshift-templates",
-        "forks_count": 7,
+        "description": "FeedHenry MBaaS OpenShift Templates",
+        "forks_count": 13,
         "html_url": "https://github.com/feedhenry/fh-openshift-templates",
         "name": "fh-openshift-templates",
-        "stargazers_count": 0
+        "stargazers_count": 1
     },
     "fh-reportingclient": {
         "description": null,
@@ -1520,10 +1520,10 @@
     },
     "fh-stats": {
         "description": "FeedHenry Stats Client/Server ",
-        "forks_count": 15,
+        "forks_count": 19,
         "html_url": "https://github.com/feedhenry/fh-stats",
         "name": "fh-stats",
-        "stargazers_count": 0
+        "stargazers_count": 1
     },
     "fh-statsc": {
         "description": null,
