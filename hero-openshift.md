@@ -8,7 +8,7 @@ permalink: /hero-openshift/
   
 ## Prerequisites  
 
-These steps presume you already have Docker installed. If you don't, look at this quickstart docker guide, or install Docker from [here](insert-link). Before you proceed any further confirm you can run docker process commands by trying `docker ps`
+These steps presume you already have Docker installed. If you don't, look at this quickstart docker guide, or install Docker from [here](https://docs.docker.com/engine/installation/). Before you proceed any further confirm you can run docker process commands by trying `docker ps`
 
 
 ## Installing Openshift  
