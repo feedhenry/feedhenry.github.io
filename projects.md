@@ -234,16 +234,24 @@ The FeedHenry Data Synchronization framework includes the following features:
 </div>
 
 <div class="project-title" markdown="1">
-
 ## Build Farm
 
-Automates the app build process.
-
+A suite of tools and modules that can be used to automate the process of building mobile applications on Kubernetes/OpenShift using Jenkins.
 </div>
-
 <div class="project-text" markdown="1">
 
-#### Coming soon
+### Modules
+
+{% include repos.html repos="digger-jenkins,digger-java" %}
+
+
+
+### Installer 
+
+Ansible scripts that can be used to install/provision the required tools, SDKs and services. Work in progress.
+
+Coming Soon
 {: .tag .tag-info}
+
 
 </div>
