@@ -162,6 +162,22 @@ Find the complete list of modules [here](https://github.com/feedhenry-raincatche
 </div>
 
 
+<div class="project-title" markdown="1">
+
+## MBaaS
+
+The FeedHenry Mobile Backend as a Service is a set of services to support applications that serve as a backend for Mobile Apps.
+
+</div>
+
+<div class="project-text" markdown="1">
+
+#### Components
+
+{% include repos.html repos="fh-openshift-templates,fh-mbaas,fh-messaging,fh-stats" %}
+
+
+</div>
 
 <div class="project-title" markdown="1">
 
@@ -216,8 +232,6 @@ The FeedHenry Data Synchronization framework includes the following features:
 
 
 </div>
-
-
 
 <div class="project-title" markdown="1">
 
