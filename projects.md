@@ -42,7 +42,7 @@ and many more. We've highlighted a few of the popular ones below.
 
 {% include repos.html repos="helloworld-app,appforms-project-client,sync-cloud,blank-cordova-app,welcome-cloud" %}
 
-Find a complete list of templates [here](https://github.com/feedhenry/).
+Find a complete list of templates [here](https://github.com/feedhenry-templates/).
 </div>
 
 
