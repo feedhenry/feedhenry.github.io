@@ -8,7 +8,7 @@ permalink: /hero-ups/
 
 ## Prerequisites ## 
 
-You should have a locally installed version of OpenShift, or access to an OpenShift cluster. If you don't have either, you can set up your own OpenShift local cluster by reading this [document](<insert-openshift-hero-link>).
+You should have a locally installed version of OpenShift, or access to an OpenShift cluster. If you don't have either, you can set up your own OpenShift local cluster by reading this [document]({{ "/hero-openshift" | relative_url }}).
 
 ## Bringing up your cluster ## 
 
