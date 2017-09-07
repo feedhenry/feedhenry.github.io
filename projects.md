@@ -88,10 +88,11 @@ management (WFM) applications.
 </div>
 <img src="{{ "/assets/images/raincatcher.svg" | relative_url }}" alt="RainCatcher Logo" class="project-logo" />
 
+### RainCatcher Resources
+
 * [RainCatcher project website](http://raincatcher.feedhenry.io)
 * [feedhenry-raincatcher mailing list](http://www.redhat.com/mailman/listinfo/feedhenry-raincatcher)
 * [RainCatcher chat](https://gitter.im/FeedhenryRaincatcher/Lobby)
-
 
 ## MBaaS
 
