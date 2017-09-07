@@ -86,83 +86,12 @@ A set of Node.js modules that can be used with FeedHenry to develop workforce
 management (WFM) applications.
 
 </div>
-
-<div class="project-text" markdown="1">
-
 <img src="{{ "/assets/images/raincatcher.svg" | relative_url }}" alt="RainCatcher Logo" class="project-logo" />
 
-#### Overview
-
-RainCatcher modules are packaged and distributed via [npm]. They are designed to
-be included in your application using [Browserify]. RainCatcher modules export
-one or more of:
-
-* [Angular.js 1] directives or services providing client-side functionality for
-both the mobile and portal clients.
-* [Express.js] routes providing a REST API to be consumed by the client-side
-portions of the module.
-* FeedHenry sync configurations for enabling data synchronization of a module's
-data. Each module's README file includes more detail on its purpose and how to
-use it.
-
-[npm]: https://www.npmjs.com/
-[browserify]: http://browserify.org/
-[Angular.js 1]: https://angularjs.org/
-[Express.js]: http://expressjs.com/
-
-#### Getting Started
-
-See the [Getting Started Guide](https://github.com/feedhenry-raincatcher/raincatcher-documentation/blob/master/getting-started.adoc).
-
-#### Community
-
+* [RainCatcher project website](http://raincatcher.feedhenry.io)
 * [feedhenry-raincatcher mailing list](http://www.redhat.com/mailman/listinfo/feedhenry-raincatcher)
-* [IRC: #feedhenry-raincatcher on Freenode](irc://irc.freenode.net/feedhenry-raincatcher)
+* [RainCatcher chat](https://gitter.im/FeedhenryRaincatcher/Lobby)
 
-#### FAQ
-
-###### What's the release cycle for RainCatcher?
-
-We have not yet developed a schedule for releases. RainCatcher is still in rapid
-development, and we're going to be working with the larger community to develop
-a cadence.
-
-###### What's the relationship between RainCatcher and RHMAP WFM?
-
-RainCatcher is the upstream project for WFM, where we do work before pulling
-it into our supported product. Features in RainCatcher may or may not ultimately
-land in WFM.
-
-###### I'd like to contribute, do I need to sign a CLA?
-
-No, we do not have a CLA for RainCatcher, but contributors do acknowledge that
-work contributed to RainCatcher is their own work and they have the right to
-make a copyright.
-
-If you have more questions, you are welcome to ask them on the [feedhenry-raincatcher mailing list].
-
-[feedhenry-raincatcher mailing list]: http://www.redhat.com/mailman/listinfo/feedhenry-raincatcher
-
-#### Modules
-
-###### Visual components
-
-{% include repos.html repos="raincatcher-signature,raincatcher-map" %}
-
-###### Angular services and directives
-
-{% include repos.html repos="raincatcher-workflow,raincatcher-workorder,raincatcher-user,raincatcher-risk-assessment,raincatcher-vehicle-inspection,raincatcher-schedule" %}
-
-###### Low-level modules
-
-{% include repos.html repos="raincatcher-sync,raincatcher-appform,raincatcher-mediator" %}
-
-Find the complete list of modules [here](https://github.com/feedhenry-raincatcher).
-
-</div>
-
-
-<div class="project-title" markdown="1">
 
 ## MBaaS
 
