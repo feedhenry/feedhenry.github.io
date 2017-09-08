@@ -8,4 +8,6 @@ script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --url-ignore "/#/"
 
-sudo: false
+sudo: required
+before_install:
+  - sudo update-ca-certificates
