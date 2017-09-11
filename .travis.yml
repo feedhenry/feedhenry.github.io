@@ -1,4 +1,5 @@
 language: ruby
+dist: trusty
 rvm:
 - 2.3.3
 
@@ -6,6 +7,8 @@ rvm:
 # the `install` step will run `bundle install` by default.
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --url-ignore "/#/"
+  - bundle exec htmlproofer ./_site --url-ignore "/#/,/www.mankier.com/"
 
-sudo: false
+sudo: required
+before_install:
+  - sudo update-ca-certificates
