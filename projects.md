@@ -76,23 +76,25 @@ send push notifications to any device, regardless of platform or network.
 
 </div>
 
-
-
 <div class="project-title" markdown="1">
 
 ## RainCatcher
 
-A set of Node.js modules that can be used with FeedHenry to develop workforce
-management (WFM) applications.
+WorkForce Management Platform
 
 </div>
-<img src="{{ "/assets/images/raincatcher.svg" | relative_url }}" alt="RainCatcher Logo" class="project-logo" />
 
-### RainCatcher Resources
+<div class="project-text" markdown="1">
+
+<img src="{{ "/assets/images/raincatcher.svg" | relative_url }}" alt="RainCatcher Logo" class="project-logo" />
 
 * [RainCatcher project website](http://raincatcher.feedhenry.io)
 * [feedhenry-raincatcher mailing list](http://www.redhat.com/mailman/listinfo/feedhenry-raincatcher)
 * [RainCatcher chat](https://gitter.im/FeedhenryRaincatcher/Lobby)
+
+</div>
+
+<div class="project-title" markdown="1">
 
 ## MBaaS
 
