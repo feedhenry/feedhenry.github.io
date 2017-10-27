@@ -923,11 +923,11 @@
         "name": "digger-java",
         "stargazers_count": 0
     },
-    "digger-jenkins": {
+    "aerogear-digger": {
         "description": "Preconfigured Jenkins instance with all the required plugins installed that will be used to build mobile applications. Work in progress.",
         "forks_count": 7,
-        "html_url": "https://github.com/aerogear/digger-jenkins",
-        "name": "digger-jenkins",
+        "html_url": "https://github.com/aerogear/aerogear-digger",
+        "name": "aerogear-digger",
         "stargazers_count": 3
     },
     "digkins-node": {
