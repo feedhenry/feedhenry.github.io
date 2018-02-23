@@ -78,6 +78,20 @@ send push notifications to any device, regardless of platform or network.
 
 <div class="project-title" markdown="1">
 
+## FHC
+
+FeedHenry Command Line Interface
+
+</div>
+
+<div class="project-text" markdown="1">
+
+{% include repos.html repos="fh-fhc" %}
+
+</div>
+
+<div class="project-title" markdown="1">
+
 ## RainCatcher
 
 WorkForce Management Platform
